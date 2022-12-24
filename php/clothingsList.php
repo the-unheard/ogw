@@ -21,7 +21,7 @@
                     <div class="clothings-item d-inline-block m-2 p-3 align-top og-bg-gray-200 position-relative">
                         <span class="clothings-cost position-absolute og-bg-darkpurple text-light"><?= $cost ?></span>
                         <span class="clothings-location position-absolute og-bg-gray-400"><?= $location ?></span>
-                        <div class="clothings-img mx-auto" style="background-image: url('../images/clothings/<?= $type ?>/<?= $img ?>.jpg');"></div>
+                        <div class="clothings-img mx-auto" style="background-image: url('../images/clothings/<?= $type ?>/<?= $img ?>.jpg?v=1671876490');"></div>
                         <p class="clothings-name og-ellipsis" title="<?= ucwords($name) ?>"><?= ucwords($name) ?></p>
                     </div>
 
