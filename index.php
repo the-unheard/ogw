@@ -61,12 +61,12 @@
 							</div>
 						</div>
 					</div>
-					<!-- Showcase: Playtest -->
+					<!-- Showcase: Map -->
 					<div class="row justify-content-center mb-3 pt-3 border-top">
-						<h4 class="text-center">Playtest</h4>
-						<div class="text-center mb-2 small">See how effective your dream team is</div>
+						<h4 class="text-center">Map</h4>
+						<div class="text-center mb-2 small">Easily find hiding ooblets</div>
 						<div class="text-center">
-							<img style="width:55%;" src="/images/layout/showcase-playtest.png"/>
+							<img style="width:55%;" src="/images/layout/showcase-map.png"/>
 						</div>
 					</div>
 					<!-- Showcase: More -->
