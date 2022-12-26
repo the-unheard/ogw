@@ -22,10 +22,11 @@
                         <td><?= $cost ?></td>
                         <td><?= $value ?></td>
                         <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-seedling"></i><?php endif; ?></td>
-                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-mortar-pestle"></i></i><?php endif; ?></td>
-                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
-                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-diamond"></i><?php endif; ?></td>
+                        <td><?php if ($processing == "Y") : ?><i class="fa-solid fa-mortar-pestle"></i></i><?php endif; ?></td>
+                        <td><?php if ($others == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
+                        <td><?php if ($profit == "Y") : ?><i class="fa-solid fa-diamond"></i><?php endif; ?></td>
                         <td><?= $profit ?></td>
+                        <td class="profit-obar"></td>
                     </tr>
 
             <?php } ?>

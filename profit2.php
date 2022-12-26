@@ -15,7 +15,7 @@
 
 					<!-- PLAYER SHOP START -->
 					<div class="pro-graph-header text-center my-3 p-2">
-						<div class="rounded py-3 text-light mx-auto og-header">Player Shop 3</div>
+						<div class="rounded py-3 text-light mx-auto og-header">Player Shop 4</div>
 					</div>
 
 					<div class="pro-graph-container col-12 p-3">
@@ -31,6 +31,7 @@
 						            <th scope="col">Foraging</th>
 						            <th scope="col">Others</th>
 						            <th scope="col">Profit</th>
+						            <th scope="col"></th>
 						        </tr>
 						    </thead>
 						    <tbody>
