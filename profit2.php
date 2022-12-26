@@ -1,3 +1,4 @@
+<?php include('php/server.php');?>
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
@@ -14,7 +15,7 @@
 
 					<!-- PLAYER SHOP START -->
 					<div class="pro-graph-header text-center my-3 p-2">
-						<div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
+						<div class="rounded py-3 text-light mx-auto og-header">Player Shop 2</div>
 					</div>
 
 					<div class="pro-graph-container col-12 p-3">
