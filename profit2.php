@@ -33,6 +33,7 @@
 						        </tr>
 						    </thead>
 						    <tbody>
+						            <?php include('php/profitPlayerShop.php'); ?>
 						    </tbody>
 						</table>
 
