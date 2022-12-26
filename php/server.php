@@ -211,8 +211,10 @@
 	// page event - profit
     	if (stripos($_SERVER['REQUEST_URI'], 'profit2')){
 
+    		$profitPlayerShopItems = array();
+
     		$profitPlayerShopquery = "SELECT * FROM profitplayershop ORDER BY type, name";
-    		$profitPlayerShopItem[] = ['Player Shop', mysqli_query($db, $profitPlayerShopquery)];
+    		$profitPlayerShopItems[] = ['Player Shop', mysqli_query($db, $profitPlayerShopquery)];
 
     	}
 

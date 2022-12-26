@@ -1,4 +1,8 @@
-<?php while($row = mysqli_fetch_assoc($profitPlayerShopItem[1])) {
+<?php foreach($profitPlayerShopItems as $profitPlayerShopItem) {
+
+?>
+            <!-- do while loop here -->
+            <?php while($row = mysqli_fetch_assoc($profitPlayerShopItem[1])) {
 
                 $type = $row['type'];
                 $name = $row['name'];
