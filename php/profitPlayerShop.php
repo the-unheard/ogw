@@ -21,10 +21,10 @@
                         <td><?= $name ?></td>
                         <td><?= $cost ?></td>
                         <td><?= $value ?></td>
-                        <td><?= $farming ?></td>
-                        <td><?= $processing ?></td>
-                        <td><?= $foraging ?></td>
-                        <td><?= $others ?></td>
+                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-seedling"></i><?php endif; ?></td>
+                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-mortar-pestle"></i></i><?php endif; ?></td>
+                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
+                        <td><?php if ($farming == "Y") : ?><i class="fa-solid fa-diamond"></i><?php endif; ?></td>
                         <td><?= $profit ?></td>
                     </tr>
 
