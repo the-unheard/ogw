@@ -50,7 +50,7 @@ class Main {
 		highestPlayerProfit = Math.max.apply(Math,profits);
 
 		$('.profit-obar').each((i) =>{
-			width = profits[i] / highestPlayerProfit * 200;
+			width = profits[i] / highestPlayerProfit * 400;
 			width = width > 0 ? width : 1;
 			$('.profit-obar')[i].style.width = width+'px';
 		});
