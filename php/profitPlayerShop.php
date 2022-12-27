@@ -25,8 +25,8 @@
                         <td><?php if ($processing == "Y") : ?><i class="fa-solid fa-mortar-pestle"></i></i><?php endif; ?></td>
                         <td><?php if ($foraging == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
                         <td><?php if ($others == "Y") : ?><i class="fa-solid fa-diamond"></i><?php endif; ?></td>
-                        <td><?= $profit ?></td>
-                        <td class="profit-obar"></td>
+                        <td class="profit-playerProfits"><?= $profit ?></td>
+                        <td><div class="profit-obar"></div></td>
                     </tr>
 
             <?php } ?>
