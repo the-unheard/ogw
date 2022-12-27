@@ -40,17 +40,12 @@ class Main {
 			profits.push(profit);
 		});
 
-		console.log(profits);
-		highestPlayerProfit = Math.max.apply(Math,profits);
-		console.log(highestPlayerProfit);
+		highestPlayerProfit = Math.max.apply(Math,profits) * 2;
 
 		$('.profit-obar').each((i) =>{
 			width = profits[i] / highestPlayerProfit * 100;
-			console.log(i + " " + width)
 			width = width > 0 ? width : 1;
-			console.log(i + " " + width)
 			$('.profit-obar')[i].style.width = width+'px';
-			$('.profit-obar')[i].style.height = '20px';
 		});
 	}
 
