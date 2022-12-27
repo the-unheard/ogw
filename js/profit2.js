@@ -15,7 +15,7 @@ class Main {
 	init() {
 		this.events();
 		this.getPlayerProfits();
-
+		this.toolTipEnabler();
 
 	}
 	
@@ -25,6 +25,13 @@ class Main {
 	
 	events() {
 
+	}
+
+	tooltTipEnabler() {
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+			return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
 	}
 
 	/** 	creates the plenny's order elements

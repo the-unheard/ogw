@@ -24,13 +24,13 @@
 						        <tr>
 						            <th scope="col">Type</th>
 						            <th scope="col">Name</th>
-						            <th scope="col" class="text-end">Cost</th>
-						            <th scope="col" class="text-end">Value</th>
-						            <th scope="col" class="text-center">Farming</th>
-						            <th scope="col" class="text-center">Processing</th>
-						            <th scope="col" class="text-center">Foraging</th>
-						            <th scope="col" class="text-center">Others</th>
-						            <th scope="col" class="text-end">Profit</th>
+						            <th scope="col" class="text-end">Cost <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Cost is how much an item costs in gummies. Crop costs are calculated by seed price divided by number of crops per harvest."></i></th>
+						            <th scope="col" class="text-end">Value  <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Value is how much the item sells for on a max-upgrade player shop, during an event (if applicable), and great haggle."></i></th>
+						            <th scope="col" class="text-center">Farming <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves growing a crop."></i></th>
+						            <th scope="col" class="text-center">Processing <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves using the crunchster or swooshler."></i></th>
+						            <th scope="col" class="text-center">Foraging <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves foraging."></i></th>
+						            <th scope="col" class="text-center">Others <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If an item is acquired by any other means, like fishing. "></i></th>
+						            <th scope="col" class="text-end">Profit <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Profit is calculated by subtracting the cost from the value."></i></th>
 						            <th scope="col"></th>
 						        </tr>
 						    </thead>
