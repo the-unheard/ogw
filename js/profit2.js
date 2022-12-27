@@ -40,10 +40,10 @@ class Main {
 			profits.push(profit);
 		});
 
-		highestPlayerProfit = Math.max.apply(Math,profits) * 2;
+		highestPlayerProfit = Math.max.apply(Math,profits);
 
 		$('.profit-obar').each((i) =>{
-			width = profits[i] / highestPlayerProfit * 100;
+			width = profits[i] / highestPlayerProfit * 50;
 			width = width > 0 ? width : 1;
 			$('.profit-obar')[i].style.width = width+'px';
 		});
