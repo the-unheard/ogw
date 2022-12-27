@@ -36,7 +36,7 @@ class Main {
 		var profit, width, highestPlayerProfit;
 
 		$('.profit-playerProfits').each((i) =>{
-			profit = parseFloat($('.profit-playerProfits')[i].text());
+			profit = parseFloat($('.profit-playerProfits').eq(1).text());
 			profits.push(profit);
 		});
 
