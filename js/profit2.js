@@ -45,7 +45,8 @@ class Main {
 		$('.profit-obar').each((i) =>{
 			width = profits[i] / this.highestPlayerProfit * 100;
 			width = width > 0 ? width : 1;
-			$('.profit-obar')[i].height(20).width(width);
+			$('.profit-obar')[i].style.width = width+'px';
+			$('.profit-obar')[i].style.height = '20px';
 		});
 	}
 
