@@ -33,11 +33,11 @@ class Main {
 
 	getPlayerProfits() {
 		var profits = [];
-		var width, highestPlayerProfit;
+		var profit, width, highestPlayerProfit;
 
 		$('.profit-playerProfits').each((i) =>{
-
-			profits.push(parseFloat($('.profit-playerProfits')[i].text()));
+			profit = parseFloat($('.profit-playerProfits')[i].text());
+			profits.push(profit);
 		});
 
 		highestPlayerProfit = Math.max.apply(Math,profits);
