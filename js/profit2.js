@@ -40,7 +40,9 @@ class Main {
 			profits.push(profit);
 		});
 
+		console.log(profits);
 		highestPlayerProfit = Math.max.apply(Math,profits);
+		console.log(highestPlayerProfit);
 
 		$('.profit-obar').each((i) =>{
 			width = profits[i] / highestPlayerProfit * 100;
