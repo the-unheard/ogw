@@ -22,10 +22,10 @@
 						<table class="table">
 						    <thead>
 						        <tr>
-						            <th scope="col" class="d-sm-none">Type</th>
+						            <th scope="col" class="d-sm-none d-block">Type</th>
 						            <th scope="col">Name</th>
-						            <th scope="col" class="d-sm-none text-end">Cost <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Cost is how much an item costs in gummies. Crop costs are calculated by seed price divided by number of crops per harvest."></i></th>
-						            <th scope="col" class="d-sm-none text-end">Value  <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Value is how much the item sells for on a fully-upgraded player shop, during an event (if applicable), and great haggle."></i></th>
+						            <th scope="col" class="d-sm-none d-block text-end">Cost <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Cost is how much an item costs in gummies. Crop costs are calculated by seed price divided by number of crops per harvest."></i></th>
+						            <th scope="col" class="d-sm-none d-block text-end">Value  <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Value is how much the item sells for on a fully-upgraded player shop, during an event (if applicable), and great haggle."></i></th>
 						            <th scope="col" class="text-center"><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves growing a crop."></i></th>
 						            <th scope="col" class="text-center"><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves using the crunchster or swooshler."></i></th>
 						            <th scope="col" class="text-center"><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves foraging."></i></th>
