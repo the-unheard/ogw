@@ -17,7 +17,7 @@
                 ?>
 
                     <tr>
-                        <td><?= $type ?></td>
+                        <td class="d-none"><?= $type ?></td>
                         <td><?= $name ?></td>
                         <td class="d-none text-end"><?= $cost ?></td>
                         <td class="d-none text-end"><?= $value ?></td>
