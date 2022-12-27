@@ -15,7 +15,7 @@
 
 					<!-- PLAYER SHOP START -->
 					<div class="pro-graph-header text-center my-3 p-2">
-						<div class="rounded py-3 text-light mx-auto og-header">Player Shop 4</div>
+						<div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
 					</div>
 
 					<div class="pro-graph-container col-12 p-3">
@@ -25,7 +25,7 @@
 						            <th scope="col">Type</th>
 						            <th scope="col">Name</th>
 						            <th scope="col" class="text-end">Cost <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Cost is how much an item costs in gummies. Crop costs are calculated by seed price divided by number of crops per harvest."></i></th>
-						            <th scope="col" class="text-end">Value  <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Value is how much the item sells for on a max-upgrade player shop, during an event (if applicable), and great haggle."></i></th>
+						            <th scope="col" class="text-end">Value  <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Value is how much the item sells for on a fully-upgraded player shop, during an event (if applicable), and great haggle."></i></th>
 						            <th scope="col" class="text-center">Farming <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves growing a crop."></i></th>
 						            <th scope="col" class="text-center">Processing <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves using the crunchster or swooshler."></i></th>
 						            <th scope="col" class="text-center">Foraging <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves foraging."></i></th>
