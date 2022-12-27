@@ -24,13 +24,13 @@
 						        <tr>
 						            <th scope="col">Type</th>
 						            <th scope="col">Name</th>
-						            <th scope="col">Cost</th>
-						            <th scope="col">Value</th>
-						            <th scope="col">Farming</th>
-						            <th scope="col">Processing</th>
-						            <th scope="col">Foraging</th>
-						            <th scope="col">Others</th>
-						            <th scope="col">Profit</th>
+						            <th scope="col" class="text-end">Cost</th>
+						            <th scope="col" class="text-end">Value</th>
+						            <th scope="col" class="text-center">Farming</th>
+						            <th scope="col" class="text-center">Processing</th>
+						            <th scope="col" class="text-center">Foraging</th>
+						            <th scope="col" class="text-center">Others</th>
+						            <th scope="col" class="text-end">Profit</th>
 						            <th scope="col"></th>
 						        </tr>
 						    </thead>
