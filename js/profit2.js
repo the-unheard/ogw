@@ -6,7 +6,6 @@ class Main {
 	
 	constructor (){
 		this.init();
-		this.highestPlayerProfit;
 	}
 	
 	/** 	initiates Main
@@ -34,16 +33,16 @@ class Main {
 
 	getPlayerProfits() {
 		var profits = [];
-		var width;
+		var width, highestPlayerProfit;
 
 		$('.profit-playerProfits').each((i) =>{
 			profits.push(parseFloat($('.profit-playerProfits')[i].text));
 		});
 
-		this.highestPlayerProfit = Math.max.apply(Math,profits);
+		highestPlayerProfit = Math.max.apply(Math,profits);
 
 		$('.profit-obar').each((i) =>{
-			width = profits[i] / this.highestPlayerProfit * 100;
+			width = profits[i] / highestPlayerProfit * 100;
 			width = width > 0 ? width : 1;
 			$('.profit-obar')[i].style.width = width+'px';
 			$('.profit-obar')[i].style.height = '20px';
