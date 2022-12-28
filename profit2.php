@@ -13,7 +13,7 @@
 
 				<div class="pro-main row m-0 py-4">
 
-					<!-- PLAYER SHOP START -->
+					<!-- PLENNY START -->
 					<div class="pro-graph-header text-center my-3 p-2">
 						<div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
 					</div>
@@ -29,18 +29,42 @@
 						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-center"></th>
-						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-end">Profit</th>
 						            <th scope="col"></th>
 						        </tr>
 						    </thead>
 						    <tbody>
-						            <?php include('php/profitPlayerShop.php'); ?>
+						            <?php include('php/profitPlenny.php'); ?>
 						    </tbody>
 						</table>
-
 					</div>
 
+					<!-- PLAYER SHOP START -->
+                    <div class="pro-graph-header text-center my-3 p-2">
+                        <div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
+                    </div>
+
+					<div class="pro-graph-container col-12 p-3">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col" class="text-end">Cost</th>
+                                    <th scope="col" class="text-end">Sell</th>
+                                    <th scope="col" class="text-center"></th>
+                                    <th scope="col" class="text-center"></th>
+                                    <th scope="col" class="text-center"></th>
+                                    <th scope="col" class="text-center"></th>
+                                    <th scope="col" class="text-end">Profit</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    <?php include('php/profitPlayerShop.php'); ?>
+                            </tbody>
+                        </table>
+                    </div>
 				</div>
 				
 

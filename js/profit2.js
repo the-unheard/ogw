@@ -49,10 +49,32 @@ class Main {
 
 		highestPlayerProfit = Math.max.apply(Math,profits);
 
-		$('.profit-obar').each((i) =>{
+		$('.profit-playerBar').each((i) =>{
 			width = profits[i] / highestPlayerProfit * 200;
 			width = width > 0 ? width : 1;
-			$('.profit-obar')[i].style.width = width+'px';
+			$('.profit-playerBar')[i].style.width = width+'px';
+		});
+	}
+
+	/** 	creates the plenny's order elements
+	 creates the plenny's order elements
+	 **/
+
+	getPlennyProfits() {
+		var profits = [];
+		var profit, width, highestPlennyProfit;
+
+		$('.profit-plennyProfits').each((i) =>{
+			profit = parseFloat($('.profit-plennyProfits').eq(i).text());
+			profits.push(profit);
+		});
+
+		highestPlennyProfit = Math.max.apply(Math,profits);
+
+		$('.profit-plennyBar').each((i) =>{
+			width = profits[i] / highestPlennyProfit * 200;
+			width = width > 0 ? width : 1;
+			$('.profit-plennyBar')[i].style.width = width+'px';
 		});
 	}
 

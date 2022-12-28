@@ -218,4 +218,13 @@
 
     	}
 
+    	if (stripos($_SERVER['REQUEST_URI'], 'profit2')){
+
+            $profitPlennyItems = array();
+
+            $profitPlennyquery = "SELECT * FROM profitplenny ORDER BY type, name";
+            $profitPlennyItems[] = ['Player Shop', mysqli_query($db, $profitPlennyquery)];
+
+        }
+
 ?>
