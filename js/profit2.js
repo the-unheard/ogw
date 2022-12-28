@@ -15,6 +15,7 @@ class Main {
 	init() {
 		this.events();
 		this.getPlayerProfits();
+		this.getPlennyProfits();
 		this.toolTipEnabler();
 
 	}

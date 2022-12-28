@@ -5,7 +5,7 @@
             <?php while($row = mysqli_fetch_assoc($profitPlennyItem[1])) {
 
                 $type = $row['type'];
-                $name = $row['name'];
+                $name = $row['item'];
                 $cost = $row['cost'];
                 $value = $row['value'];
                 $farming = $row['farming'];
