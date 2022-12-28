@@ -52,7 +52,7 @@ class Main {
 
 		$('.profit-playerBar').each((i) =>{
 			width = profits[i] / highestPlayerProfit * 150;
-			width = width > 0 ? width : 1;
+			width = width < 1 ? 1 : width;
 			$('.profit-playerBar')[i].style.width = width+'px';
 		});
 	}
@@ -74,7 +74,7 @@ class Main {
 
 		$('.profit-plennyBar').each((i) =>{
 			width = profits[i] / highestPlennyProfit * 150;
-			width = width > 0 ? width : 1;
+			width = width < 1 ? 1 : width;
 			$('.profit-plennyBar')[i].style.width = width+'px';
 		});
 	}

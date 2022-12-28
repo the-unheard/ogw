@@ -22,7 +22,7 @@
 						    <thead>
 						        <tr>
 						            <th scope="col">Type</th>
-						            <th scope="col">Name</th>
+						            <th scope="col">Item</th>
 						            <th scope="col" class="text-end d-none">Cost</th>
 						            <th scope="col" class="text-end d-none">Sell</th>
 						            <th scope="col" class="text-center"></th>
@@ -47,7 +47,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col">Type</th>
-                                    <th scope="col">Name</th>
+                                    <th scope="col">Item</th>
                                     <th scope="col" class="text-end d-none">Cost</th>
                                     <th scope="col" class="text-end d-none">Sell</th>
                                     <th scope="col" class="text-center"></th>
