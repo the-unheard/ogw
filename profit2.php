@@ -46,7 +46,7 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="d-none">Type</th>
+                                    <th scope="col">Type</th>
                                     <th scope="col">Name</th>
                                     <th scope="col" class="text-end d-none">Cost</th>
                                     <th scope="col" class="text-end d-none">Sell</th>
