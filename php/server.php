@@ -213,7 +213,7 @@
 
             $profitPlennyItems = array();
 
-            $profitPlennyquery = "SELECT * FROM profitplenny ORDER BY type, name";
+            $profitPlennyquery = "SELECT * FROM profitplenny ORDER BY type, item";
             $profitPlennyItems[] = ['Plenny', mysqli_query($db, $profitPlennyquery)];
 
     		$profitPlayerShopItems = array();

@@ -5,7 +5,7 @@
             <?php while($row = mysqli_fetch_assoc($profitPlennyItem[1])) {
 
                 $type = $row['type'];
-                $name = $row['item'];
+                $item = $row['item'];
                 $cost = $row['cost'];
                 $value = $row['value'];
                 $farming = $row['farming'];
@@ -17,7 +17,7 @@
 
                     <tr>
                         <td class=""><?= $type ?></td>
-                        <td><?= $name ?></td>
+                        <td><?= $item ?></td>
                         <td class="text-end"><?= $cost ?></td>
                         <td class="text-end"><?= $value ?></td>
                         <td class="text-center"><?php if ($farming == "Y") : ?><i class="fa-solid fa-seedling"></i><?php endif; ?></td>

@@ -1149,7 +1149,13 @@ CLOTHINGS
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
-	.profit-obar {
+	.profit-playerBar {
+		height: 20px;
+		background: #63bb9e;
+		border-radius: 7px;
+	}
+
+	.profit-plennyBar {
 		height: 20px;
 		background: #63bb9e;
 		border-radius: 7px;
