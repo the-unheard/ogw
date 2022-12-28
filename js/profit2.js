@@ -51,7 +51,7 @@ class Main {
 		highestPlayerProfit = Math.max.apply(Math,profits);
 
 		$('.profit-playerBar').each((i) =>{
-			width = profits[i] / highestPlayerProfit * 200;
+			width = profits[i] / highestPlayerProfit * 150;
 			width = width > 0 ? width : 1;
 			$('.profit-playerBar')[i].style.width = width+'px';
 		});
@@ -73,7 +73,7 @@ class Main {
 		highestPlennyProfit = Math.max.apply(Math,profits);
 
 		$('.profit-plennyBar').each((i) =>{
-			width = profits[i] / highestPlennyProfit * 200;
+			width = profits[i] / highestPlennyProfit * 150;
 			width = width > 0 ? width : 1;
 			$('.profit-plennyBar')[i].style.width = width+'px';
 		});

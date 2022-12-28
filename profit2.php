@@ -14,7 +14,7 @@
 				<div class="pro-main row m-0 py-4">
 
 					<!-- PLENNY START -->
-					<div class="pro-graph-container col-6 p-3">
+					<div class="pro-graph-container col-xl-6 col-12 p-3">
                         <div class="pro-graph-header text-center my-3 p-2">
                             <div class="rounded py-3 text-light mx-auto og-header">Plenny</div>
                         </div>
@@ -39,7 +39,7 @@
 					</div>
 
 					<!-- PLAYER SHOP START -->
-					<div class="pro-graph-container col-6 p-3">
+					<div class="pro-graph-container col-xl-6 col-12 p-3">
                         <div class="pro-graph-header text-center my-3 p-2">
                             <div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
                         </div>
