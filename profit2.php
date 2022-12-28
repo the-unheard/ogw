@@ -26,11 +26,11 @@
 						            <th scope="col">Name</th>
 						            <th scope="col" class="text-end">Cost</th>
 						            <th scope="col" class="text-end">Sell</th>
-						            <th scope="col" class="text-center">Farm <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves growing a crop."></i></th>
-						            <th scope="col" class="text-center">Process <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves using the crunchster or swooshler."></i></th>
-						            <th scope="col" class="text-center">Forage <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If acquiring the item involves foraging."></i></th>
-						            <th scope="col" class="text-center">Others <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="If an item is acquired by any other means, like fishing. "></i></th>
-						            <th scope="col" class="text-end">Profit <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Profit is calculated by subtracting the cost from the sale price."></i></th>
+						            <th scope="col" class="text-center"></th>
+						            <th scope="col" class="text-center"></th>
+						            <th scope="col" class="text-center"></th>
+						            <th scope="col" class="text-center"></th>
+						            <th scope="col" class="text-end">Profit</th>
 						            <th scope="col"></th>
 						        </tr>
 						    </thead>
