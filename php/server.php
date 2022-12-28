@@ -216,10 +216,6 @@
     		$profitPlayerShopquery = "SELECT * FROM profitplayershop ORDER BY type, name";
     		$profitPlayerShopItems[] = ['Player Shop', mysqli_query($db, $profitPlayerShopquery)];
 
-    	}
-
-    	if (stripos($_SERVER['REQUEST_URI'], 'profit2')){
-
             $profitPlennyItems = array();
 
             $profitPlennyquery = "SELECT * FROM profitplenny ORDER BY type, name";
