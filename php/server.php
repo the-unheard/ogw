@@ -211,15 +211,17 @@
 	// page event - profit
     	if (stripos($_SERVER['REQUEST_URI'], 'profit2')){
 
+
+            $profitPlennyItems = array();
+
+            $profitPlennyquery = "SELECT * FROM profitplenny ORDER BY type, name";
+            $profitPlennyItems[] = ['Plenny', mysqli_query($db, $profitPlennyquery)];
+
     		$profitPlayerShopItems = array();
 
     		$profitPlayerShopquery = "SELECT * FROM profitplayershop ORDER BY type, name";
     		$profitPlayerShopItems[] = ['Player Shop', mysqli_query($db, $profitPlayerShopquery)];
 
-            $profitPlennyItems = array();
-
-            $profitPlennyquery = "SELECT * FROM profitplenny ORDER BY type, name";
-            $profitPlennyItems[] = ['Player Shop', mysqli_query($db, $profitPlennyquery)];
 
         }
 
