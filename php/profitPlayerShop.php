@@ -17,10 +17,10 @@
                 ?>
 
                     <tr>
-                        <td class=""><?= $type ?></td>
+                        <td class="d-none"><?= $type ?></td>
                         <td><?= $name ?></td>
-                        <td class="text-end"><?= $cost ?></td>
-                        <td class="text-end"><?= $value ?></td>
+                        <td class="text-end d-none"><?= $cost ?></td>
+                        <td class="text-end d-none"><?= $value ?></td>
                         <td class="text-center"><?php if ($farming == "Y") : ?><i class="fa-solid fa-seedling"></i><?php endif; ?></td>
                         <td class="text-center"><?php if ($processing == "Y") : ?><i class="fa-solid fa-mortar-pestle"></i></i><?php endif; ?></td>
                         <td class="text-center"><?php if ($foraging == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
