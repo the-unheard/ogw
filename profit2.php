@@ -22,9 +22,8 @@
                             <i class='fa-solid fa-seedling'></i> - involves farming<br/>
                             <i class='fa-solid fa-mortar-pestle'></i> - involves processing<br/>
                             <i class='fa-solid fa-tree'></i> - involves foraging<br/>
-                            Plenny+ is an end-game content<br/>
-                            Player Shop Profits are based on sell prices<br/>
-                            on a fully-upgraded shop, during events, at Great haggle."></i>
+                            Plenny+ - end-game content.<br/>
+                            Shop Profits - based on sell prices on a fully-upgraded shop, during events, at Great haggle."></i>
                         </div>
                     </div>
                 </div>
