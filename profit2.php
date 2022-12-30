@@ -17,11 +17,14 @@
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
                         <div class="profit-legends float-end">
-                            Legends
+                            Information
                             <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-html="true" title="
                             <i class='fa-solid fa-seedling'></i> - involves farming<br/>
                             <i class='fa-solid fa-mortar-pestle'></i> - involves processing<br/>
-                            <i class='fa-solid fa-tree'></i> - involves foraging<br/>"></i>
+                            <i class='fa-solid fa-tree'></i> - involves foraging<br/>
+                            Plenny+ is an end-game content<br/>
+                            Player Shop Profits are based on sell prices<br/>
+                            on a fully-upgraded shop, during events, at Great haggle."></i>
                         </div>
                     </div>
                 </div>
