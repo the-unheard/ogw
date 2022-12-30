@@ -1,3 +1,11 @@
+<h6>Dec 30, 2022</h6>
+  <ul>
+    <li>Updated and reworked Profits section</li>
+  </ul>
+<h6>Dec 20, 2022</h6>
+  <ul>
+    <li>Added ooblet clothings</li>
+  </ul>
 <h6>Dec 19, 2022</h6>
   <ul>
     <li>Added all clothings</li>
