@@ -33,6 +33,7 @@
 	--independence: #5E5C6C;
 	--darkpurple: #8765a2;
 	--sunsetpurple: #ae7898;
+	--profitgreen: #63bb9e;
 }
 
 .og-bg-wisteria {
@@ -89,6 +90,10 @@
 
 .og-bg-sunsetpurple {
 	background-color: var(--sunsetpurple);
+}
+
+.og-bg-profitgreen {
+	background-color: var(--profitgreen);
 }
 
 .og-ellipsis {
@@ -1151,13 +1156,11 @@ CLOTHINGS
 
 	.profit-playerBar {
 		height: 20px;
-		background: #63bb9e;
 		border-radius: 7px;
 	}
 
 	.profit-plennyBar {
 		height: 20px;
-		background: #63bb9e;
 		border-radius: 7px;
 	}
 

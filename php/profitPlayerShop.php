@@ -26,7 +26,7 @@
                         <td class="text-center"><?php if ($foraging == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
                         <td class="text-center d-none"><?php if ($others == "Y") : ?><i class="fa-solid fa-diamond"></i><?php endif; ?></td>
                         <td class="text-end profit-playerProfits"><?= round($profit,0) ?></td>
-                        <td><div class="profit-playerBar"></div></td>
+                        <td><div class="profit-playerBar og-bg-profitgreen"></div></td>
                     </tr>
 
             <?php } ?>

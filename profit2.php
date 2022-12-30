@@ -20,9 +20,9 @@
                 </div>
 
                 <!-- PLENNY START -->
-                <div class="pro-graph-container col-xl-6 col-12 p-3">
-                    <div class="pro-graph-header text-center my-3 p-2">
-                        <div class="rounded py-3 text-light mx-auto og-header">Plenny's</div>
+                <div class="col-xl-6 col-12 p-3">
+                    <div class="text-center my-3 p-2">
+                        <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Plenny's</div>
                     </div>
                     <table class="table">
                         <thead>
@@ -45,9 +45,9 @@
                 </div>
 
                 <!-- PLAYER SHOP START -->
-                <div class="pro-graph-container col-xl-6 col-12 p-3">
-                    <div class="pro-graph-header text-center my-3 p-2">
-                        <div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
+                <div class="col-xl-6 col-12 p-3">
+                    <div class="text-center my-3 p-2">
+                        <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Player Shop</div>
                     </div>
                     <table class="table">
                         <thead>
