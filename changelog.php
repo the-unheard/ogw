@@ -10,9 +10,9 @@
 
 		<main>
 			<div class="row p-2 bg-light mx-auto">
-			    <div class="rounded py-3 text-light mx-auto og-header og-bg-green">Changelog</div>
+			    <div class="rounded m-4 py-3 text-light text-center og-header og-bg-green">Changelog</div>
 
-				<div class="tp-main py-4 p-2 col-10 mx-auto">
+				<div class="tp-main m-4 px-2">
 					<?php include('php/changelog.php'); ?>
 				</div>
 			</div>
