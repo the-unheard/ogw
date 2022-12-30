@@ -18,10 +18,9 @@
                         </div>
                         <div class="profit-legends d-inline-block">
                             <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-html="true" title="
-                            <p><i class='fa-solid fa-seedling'></i> - involves farming</p>
-                            <p><i class='fa-solid fa-mortar-pestle'></i> - involves food processing</p>
-                            <p><i class='fa-solid fa-tree'></i> - involves foraging</p>
-                            <p>Blank - involves other methods</p>"></i>
+                            <i class='fa-solid fa-seedling'></i> - involves farming<br/>
+                            <i class='fa-solid fa-mortar-pestle'></i> - involves food processing<br/>
+                            <i class='fa-solid fa-tree'></i> - involves foraging<br/>"></i>
                         </div>
                     </div>
                 </div>
