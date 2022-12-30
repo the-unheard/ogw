@@ -12,14 +12,14 @@
 			<div class="row p-2 bg-light mx-auto">
                 <div class="profit-topcontrols og-bg-gray-300 mb-2 p-2 rounded" style="height: 50px;">
                     <div class="col-12 position-relative" style="top: 2px;">
-                        <div class="form-check form-switch d-inline-block">
+                        <div class="form-check form-switch">
                             <label class="form-check-label" for="profitCompact">Compact</label>
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
-                        <div class="profit-legends d-inline-block">
+                        <div class="profit-legends float-end">
                             <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-html="true" title="
                             <i class='fa-solid fa-seedling'></i> - involves farming<br/>
-                            <i class='fa-solid fa-mortar-pestle'></i> - involves food processing<br/>
+                            <i class='fa-solid fa-mortar-pestle'></i> - involves processing<br/>
                             <i class='fa-solid fa-tree'></i> - involves foraging<br/>"></i>
                         </div>
                     </div>

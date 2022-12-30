@@ -1168,7 +1168,7 @@ CLOTHINGS
 		display: none;
 	}
 
-	#profitCompact {
+	#profitCompact, .profit-legends {
 		position: relative;
 		top: 2px;
 	}
