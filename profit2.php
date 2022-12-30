@@ -12,7 +12,7 @@
 			<div class="row p-2 bg-light mx-auto">
                 <div class="profit-topcontrols og-bg-gray-300 mb-2 p-2 rounded" style="height: 50px;">
                     <div class="col-12 position-relative" style="top: 2px;">
-                        <div class="form-check form-switch">
+                        <div class="form-check form-switch float-start">
                             <label class="form-check-label" for="profitCompact">Compact</label>
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
