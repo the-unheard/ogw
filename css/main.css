@@ -902,65 +902,6 @@
 
 /*
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	PROFIT
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
-
-	.pro-main {
-		font-size: 14px;
-	}
-
-		.pro-graph-header div {
-			background-color: #63bb9e;
-		}
-
-		.pro-subcat {
-			background: #63bb9e;
-			font-size: 16px;
-			left: -30px;
-			width: 150px;
-			font-family: 'Fredoka One';
-		}
-
-		.pro-subcat::after {
-			content: '';
-			border-top: 13px solid #478a74;
-			border-left: 14px solid transparent;
-			height: 0;
-			width: 0;
-			position: absolute;
-			clear: both;
-			top: 35px;
-			left: 0;
-		}
-
-		.pro-graph-control a, .pro-graph-control span  {
-			background:  #e3e3e8;
-			color: var(--offblackfont);
-			margin: 0px -2px;
-		}
-
-		.pro-graph-control span {
-			cursor: pointer;
-			border-left:  1px solid #d9d9d9;
-		}
-
-			.pro-graph-control span:hover {
-				background: #d6d6dd;
-			}
-
-			.pro-graph-control span.pro-selected {
-				background: #c6c6cc;
-			}
-
-		.pro-graph-bar {
-			height: 20px;
-			text-transform:  lowercase;
-			background: #8fc6b4;
-		}
-
-/*
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	FURNITURES
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */

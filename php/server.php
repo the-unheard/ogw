@@ -209,7 +209,7 @@
 	}
 
 	// page event - profit
-    	if (stripos($_SERVER['REQUEST_URI'], 'profit2')){
+    	if (stripos($_SERVER['REQUEST_URI'], 'profit')){
 
             $profitPlennyItems = array();
 
