@@ -16,6 +16,12 @@
                             <label class="form-check-label" for="profitCompact">Compact Mode</label>
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
+                        <div class="profit-legends">
+                            <span>Legends: </span>
+                            <span><i class="fa-solid fa-seedling"></i> - requires farming</span>
+                            <span><i class="fa-solid fa-mortar-pestle"></i> - requires processing</span>
+                            <span><i class="fa-solid fa-tree"></i> - requires foraging</span>
+                        </div>
                     </div>
                 </div>
 

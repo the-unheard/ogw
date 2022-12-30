@@ -1167,3 +1167,8 @@ CLOTHINGS
 	.profitToggleable {
 		display: none;
 	}
+
+	#profitCompact {
+		position: relative;
+		top: 2px;
+	}
