@@ -26,10 +26,10 @@
 						<table class="table">
 						    <thead>
 						        <tr>
-						            <th scope="col" class="profitToggleable d-none">Lvl</th>
+						            <th scope="col" class="profitToggleable">Lvl</th>
 						            <th scope="col">Item</th>
-						            <th scope="col" class="profitToggleable text-end d-none">Cost</th>
-						            <th scope="col" class="profitToggleable text-end d-none">Sell</th>
+						            <th scope="col" class="profitToggleable text-end">Cost</th>
+						            <th scope="col" class="profitToggleable text-end">Sell</th>
 						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-center"></th>
@@ -51,10 +51,10 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="profitToggleable d-none">Type</th>
+                                    <th scope="col" class="profitToggleable">Type</th>
                                     <th scope="col">Item</th>
-                                    <th scope="col" class="profitToggleable text-end d-none">Cost</th>
-                                    <th scope="col" class="profitToggleable text-end d-none">Sell</th>
+                                    <th scope="col" class="profitToggleable text-end">Cost</th>
+                                    <th scope="col" class="profitToggleable text-end">Sell</th>
                                     <th scope="col" class="text-center"></th>
                                     <th scope="col" class="text-center"></th>
                                     <th scope="col" class="text-center"></th>
