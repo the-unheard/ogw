@@ -14,6 +14,7 @@ class Main {
 	
 	init() {
 		this.events();
+		$('#profitCompact').prop('checked', true); //sets compact mode to true by default
 		this.getPlayerProfits();
 		this.getPlennyProfits();
 		this.toolTipEnabler();
