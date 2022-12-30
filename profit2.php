@@ -58,7 +58,7 @@
                                     <th scope="col" class="text-center"></th>
                                     <th scope="col" class="text-center"></th>
                                     <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center"></th>
+                                    <th scope="col" class="text-center d-none"></th>
                                     <th scope="col" class="text-end">Profit</th>
                                     <th scope="col"></th>
                                 </tr>
