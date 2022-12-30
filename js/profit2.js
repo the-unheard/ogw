@@ -31,8 +31,8 @@ class Main {
 		});
 	}
 
-	toggleCompact(e){
-		if (e.is(':checked')){
+	toggleCompact(checkbox){
+		if ($(checkbox).is(':checked')){
 			$('.playerProfitTypes').hide();
 			$('.playerProfitType').hide();
 			$('.playerProfitCosts').hide();
