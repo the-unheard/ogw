@@ -10,74 +10,66 @@
 
 		<main>
 			<div class="row p-2 bg-light mx-auto">
-
-				<div class="pro-main row m-0 py-4">
-
-				    <div class="profit-topcontrols og-bg-gray-300 mb-2 p-2 rounded" style="height: 50px;">
-                        <div class="col-xl-5 col-lg-7 col-md-9 col-12 position-relative" style="top: 2px;">
-                            <div class="form-check form-switch">
-                                <label class="form-check-label" for="profitCompact">Compact Mode</label>
-                                <input class="form-check-input" type="checkbox" id="profitCompact" checked>
-                            </div>
+                <div class="profit-topcontrols og-bg-gray-300 mb-2 p-2 rounded" style="height: 50px;">
+                    <div class="col-xl-5 col-lg-7 col-md-9 col-12 position-relative" style="top: 2px;">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="profitCompact">Compact Mode</label>
+                            <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
                     </div>
+                </div>
 
-
-
-					<!-- PLENNY START -->
-					<div class="pro-graph-container col-xl-6 col-12 p-3">
-                        <div class="pro-graph-header text-center my-3 p-2">
-                            <div class="rounded py-3 text-light mx-auto og-header">Plenny's</div>
-                        </div>
-						<table class="table">
-						    <thead>
-						        <tr>
-						            <th scope="col" class="profitToggleable">Lvl</th>
-						            <th scope="col">Item</th>
-						            <th scope="col" class="profitToggleable text-end">Cost</th>
-						            <th scope="col" class="profitToggleable text-end">Sell</th>
-						            <th scope="col" class="text-center"></th>
-						            <th scope="col" class="text-center"></th>
-						            <th scope="col" class="text-center"></th>
-						            <th scope="col" class="text-end">Profit</th>
-						            <th scope="col"></th>
-						        </tr>
-						    </thead>
-						    <tbody>
-						            <?php include('php/profitPlenny.php'); ?>
-						    </tbody>
-						</table>
-					</div>
-
-					<!-- PLAYER SHOP START -->
-					<div class="pro-graph-container col-xl-6 col-12 p-3">
-                        <div class="pro-graph-header text-center my-3 p-2">
-                            <div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
-                        </div>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col" class="profitToggleable">Type</th>
-                                    <th scope="col">Item</th>
-                                    <th scope="col" class="profitToggleable text-end">Cost</th>
-                                    <th scope="col" class="profitToggleable text-end">Sell</th>
-                                    <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center d-none"></th>
-                                    <th scope="col" class="text-end">Profit</th>
-                                    <th scope="col"></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                    <?php include('php/profitPlayerShop.php'); ?>
-                            </tbody>
-                        </table>
+                <!-- PLENNY START -->
+                <div class="pro-graph-container col-xl-6 col-12 p-3">
+                    <div class="pro-graph-header text-center my-3 p-2">
+                        <div class="rounded py-3 text-light mx-auto og-header">Plenny's</div>
                     </div>
-				</div>
-				
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="profitToggleable">Lvl</th>
+                                <th scope="col">Item</th>
+                                <th scope="col" class="profitToggleable text-end">Cost</th>
+                                <th scope="col" class="profitToggleable text-end">Sell</th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-end">Profit</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <?php include('php/profitPlenny.php'); ?>
+                        </tbody>
+                    </table>
+                </div>
 
-			</div>
+                <!-- PLAYER SHOP START -->
+                <div class="pro-graph-container col-xl-6 col-12 p-3">
+                    <div class="pro-graph-header text-center my-3 p-2">
+                        <div class="rounded py-3 text-light mx-auto og-header">Player Shop</div>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="profitToggleable">Type</th>
+                                <th scope="col">Item</th>
+                                <th scope="col" class="profitToggleable text-end">Cost</th>
+                                <th scope="col" class="profitToggleable text-end">Sell</th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center d-none"></th>
+                                <th scope="col" class="text-end">Profit</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <?php include('php/profitPlayerShop.php'); ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 		</main>
 
 		<?php include('php/footer.php'); ?>
