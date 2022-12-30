@@ -20,11 +20,11 @@
                 </div>
 
                 <!-- PLENNY START -->
-                <div class="col-xl-6 col-12 p-3">
+                <div class="profit-group col-xl-6 col-12 p-3">
                     <div class="text-center my-3 p-2">
                         <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Plenny's</div>
                     </div>
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col" class="profitToggleable">Lvl</th>
@@ -45,11 +45,11 @@
                 </div>
 
                 <!-- PLAYER SHOP START -->
-                <div class="col-xl-6 col-12 p-3">
+                <div class="profit-group col-xl-6 col-12 p-3">
                     <div class="text-center my-3 p-2">
                         <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Player Shop</div>
                     </div>
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col" class="profitToggleable">Type</th>

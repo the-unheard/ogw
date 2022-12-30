@@ -34,11 +34,11 @@ class Main {
 	toggleCompact(checkbox){
 		if ($(checkbox).is(':checked')){
 			$('.profitToggleable').hide();
-			$('.pro-graph-container').addClass('col-xl-6');
+			$('.profit-group ').addClass('col-xl-6');
 		}
 		else {
 			$('.profitToggleable').show();
-			$('.pro-graph-container').removeClass('col-xl-6');
+			$('.profit-group ').removeClass('col-xl-6');
 		}
 	}
 
