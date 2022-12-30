@@ -33,12 +33,12 @@ class Main {
 
 	toggleCompact(checkbox){
 		if ($(checkbox).is(':checked')){
-			console.log('checked');
 			$('.profitToggleable').hide();
+			$('.pro-graph-container').addClass('col-xl-6');
 		}
 		else {
-			console.log('not checked');
 			$('.profitToggleable').show();
+			$('.pro-graph-container').removeClass('col-xl-6');
 		}
 	}
 
