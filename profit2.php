@@ -17,9 +17,11 @@
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
                         <div class="profit-legends d-inline-block">
-                            <span>| <i class="fa-solid fa-seedling"></i> - farm </span>
-                            <span>| <i class="fa-solid fa-mortar-pestle"></i> - process </span>
-                            <span>| <i class="fa-solid fa-tree"></i> - forage </span>
+                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-html="true" title="
+                            <p><i class='fa-solid fa-seedling'></i> - involves farming</p>
+                            <p><i class='fa-solid fa-mortar-pestle'></i> - involves food processing</p>
+                            <p><i class='fa-solid fa-tree'></i> - involves foraging</p>
+                            <p>Blank - involves other methods</p>"></i>
                         </div>
                     </div>
                 </div>
