@@ -23,7 +23,7 @@
                             <i class='fa-solid fa-mortar-pestle'></i> - involves processing<br/>
                             <i class='fa-solid fa-tree'></i> - involves foraging<br/>
                             <b>Plenny+</b> - end-game content.<br/>
-                            <b>Shop Profits</b> - based on sell prices on a fully-upgraded shop, during events, at Great haggle."></i>
+                            <b>Shop Profits</b> - based on a fully-upgraded shop, during events, at great haggle price."></i>
                         </div>
                     </div>
                 </div>
