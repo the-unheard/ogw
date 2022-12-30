@@ -12,15 +12,14 @@
 			<div class="row p-2 bg-light mx-auto">
                 <div class="profit-topcontrols og-bg-gray-300 mb-2 p-2 rounded" style="height: 50px;">
                     <div class="col-xl-5 col-lg-7 col-md-9 col-12 position-relative" style="top: 2px;">
-                        <div class="form-check form-switch">
+                        <div class="form-check form-switch d-inline">
                             <label class="form-check-label" for="profitCompact">Compact Mode</label>
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
-                        <div class="profit-legends">
-                            <span>Legends: </span>
-                            <span><i class="fa-solid fa-seedling"></i> - requires farming</span>
-                            <span><i class="fa-solid fa-mortar-pestle"></i> - requires processing</span>
-                            <span><i class="fa-solid fa-tree"></i> - requires foraging</span>
+                        <div class="profit-legends d-inline">
+                            <span>| <i class="fa-solid fa-seedling"></i> - requires farming </span>
+                            <span>| <i class="fa-solid fa-mortar-pestle"></i> - requires processing </span>
+                            <span>| <i class="fa-solid fa-tree"></i> - requires foraging </span>
                         </div>
                     </div>
                 </div>
