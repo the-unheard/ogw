@@ -17,6 +17,7 @@
                             <input class="form-check-input" type="checkbox" id="profitCompact" checked>
                         </div>
                         <div class="profit-legends float-end">
+                            Legends
                             <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-html="true" title="
                             <i class='fa-solid fa-seedling'></i> - involves farming<br/>
                             <i class='fa-solid fa-mortar-pestle'></i> - involves processing<br/>
