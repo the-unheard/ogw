@@ -85,7 +85,7 @@
 					<div class="main-changelogGroup">
 					    <?php include('php/changelog.php'); ?>
 					</div>
-					<button type="button" class="btn btn-info btn-sm">Read More <i class="fa-solid fa-angles-right"></i></button>
+					<a type="button" class="btn btn-info btn-sm m-4" href="/changelog">Read More <i class="fa-solid fa-angles-right"></i></a>
 				</div>
 			</div>
 		</main>

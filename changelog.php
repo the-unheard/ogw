@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-	<title>Ooblets Guide | Tips</title>
+	<title>Ooblets Guide | Changelog</title>
 		<?php include('php/meta.php'); ?>
 	</head>
 	<body>
@@ -10,6 +10,8 @@
 
 		<main>
 			<div class="row p-2 bg-light mx-auto">
+			    <div class="rounded py-3 text-light mx-auto og-header og-bg-green">Changelog</div>
+
 				<div class="tp-main py-4 p-2 col-10 mx-auto">
 					<?php include('php/changelog.php'); ?>
 				</div>
