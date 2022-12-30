@@ -26,10 +26,10 @@
 						<table class="table">
 						    <thead>
 						        <tr>
-						            <th scope="col" class="playerProfitTypes">Lvl</th>
+						            <th scope="col" class="profitToggleable d-none">Lvl</th>
 						            <th scope="col">Item</th>
-						            <th scope="col" class="playerProfitCosts text-end d-none">Cost</th>
-						            <th scope="col" class="playerProfitValues text-end d-none">Sell</th>
+						            <th scope="col" class="profitToggleable text-end d-none">Cost</th>
+						            <th scope="col" class="profitToggleable text-end d-none">Sell</th>
 						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-center"></th>
 						            <th scope="col" class="text-center"></th>
@@ -51,10 +51,10 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="playerProfitTypes">Type</th>
+                                    <th scope="col" class="profitToggleable d-none">Type</th>
                                     <th scope="col">Item</th>
-                                    <th scope="col" class="playerProfitCosts text-end d-none">Cost</th>
-                                    <th scope="col" class="playerProfitValues text-end d-none">Sell</th>
+                                    <th scope="col" class="profitToggleable text-end d-none">Cost</th>
+                                    <th scope="col" class="profitToggleable text-end d-none">Sell</th>
                                     <th scope="col" class="text-center"></th>
                                     <th scope="col" class="text-center"></th>
                                     <th scope="col" class="text-center"></th>

@@ -33,20 +33,12 @@ class Main {
 
 	toggleCompact(checkbox){
 		if ($(checkbox).is(':checked')){
-			$('.playerProfitTypes').hide();
-			$('.playerProfitType').hide();
-			$('.playerProfitCosts').hide();
-			$('.playerProfitCost').hide();
-			$('.playerProfitValues').hide();
-			$('.playerProfitValue').hide();
+			console.log('checked');
+			$('.profitToggleable').hide();
 		}
 		else {
-			$('.playerProfitTypes').show();
-			$('.playerProfitType').show();
-			$('.playerProfitCosts').show();
-			$('.playerProfitCost').show();
-			$('.playerProfitValues').show();
-			$('.playerProfitValue').show();
+			console.log('not checked');
+			$('.profitToggleable').show();
 		}
 	}
 
