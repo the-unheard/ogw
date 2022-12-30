@@ -16,18 +16,16 @@
 					<!-- PLENNY START -->
 					<div class="pro-graph-container col-xl-6 col-12 p-3">
                         <div class="pro-graph-header text-center my-3 p-2">
-                            <div class="rounded py-3 text-light mx-auto og-header">Plenny</div>
+                            <div class="rounded py-3 text-light mx-auto og-header">Plenny's</div>
                         </div>
 						<table class="table">
 						    <thead>
 						        <tr>
-						            <th scope="col">Type</th>
+						            <th scope="col">Lvl</th>
 						            <th scope="col">Item</th>
 						            <th scope="col" class="text-end d-none">Cost</th>
 						            <th scope="col" class="text-end d-none">Sell</th>
-						            <th scope="col" class="text-center"></th>
-						            <th scope="col" class="text-center"></th>
-						            <th scope="col" class="text-center"></th>
+						            <th scope="col" class="text-center" colspan="3">Requires</th>
 						            <th scope="col" class="text-end">Profit</th>
 						            <th scope="col"></th>
 						        </tr>
@@ -50,10 +48,7 @@
                                     <th scope="col">Item</th>
                                     <th scope="col" class="text-end d-none">Cost</th>
                                     <th scope="col" class="text-end d-none">Sell</th>
-                                    <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center"></th>
-                                    <th scope="col" class="text-center"></th>
+                                    <th scope="col" class="text-center" colspan="3">Requires</th>
                                     <th scope="col" class="text-end">Profit</th>
                                     <th scope="col"></th>
                                 </tr>
