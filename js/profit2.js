@@ -25,7 +25,29 @@ class Main {
 	**/
 	
 	events() {
+		$(document).on('change', '#profitCompact', (evt) =>{
+			var target = evt.target;
+			this.toggleCompact(target);
+		});
+	}
 
+	toggleCompact(e){
+		if (e.is(':checked')){
+			$('.playerProfitTypes').hide();
+			$('.playerProfitType').hide();
+			$('.playerProfitCosts').hide();
+			$('.playerProfitCost').hide();
+			$('.playerProfitValues').hide();
+			$('.playerProfitValue').hide();
+		}
+		else {
+			$('.playerProfitTypes').show();
+			$('.playerProfitType').show();
+			$('.playerProfitCosts').show();
+			$('.playerProfitCost').show();
+			$('.playerProfitValues').show();
+			$('.playerProfitValue').show();
+		}
 	}
 
 	toolTipEnabler() {
