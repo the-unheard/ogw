@@ -13,10 +13,16 @@
 
 				<div class="pro-main row m-0 py-4">
 
-                    <div class="form-check form-switch">
-                        <label class="form-check-label" for="profitCompact">Compact Mode</label>
-                        <input class="form-check-input" type="checkbox" id="profitCompact" checked>
+				    <div class="profit-topcontrols og-bg-gray-300 mb-2 p-2 rounded" style="height: 50px;">
+                        <div class="col-xl-5 col-lg-7 col-md-9 col-12 position-relative" style="top: 2px;">
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="profitCompact">Compact Mode</label>
+                                <input class="form-check-input" type="checkbox" id="profitCompact" checked>
+                            </div>
+                        </div>
                     </div>
+
+
 
 					<!-- PLENNY START -->
 					<div class="pro-graph-container col-xl-6 col-12 p-3">
