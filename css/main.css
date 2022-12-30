@@ -134,6 +134,17 @@
 			max-width: 1600px;
 		}
 
+		.main-right {
+			overflow: auto;
+		}
+
+			.main-changelogGroup {
+				display: -webkit-box;
+				-webkit-line-clamp: 20;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+
 	label {
 		margin-left: 3px;
 		user-select: none; /* standard syntax */
@@ -1091,7 +1102,7 @@
 
 /*
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-CLOTHINGS
+	PROFIT
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 

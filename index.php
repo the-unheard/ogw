@@ -82,7 +82,10 @@
 				<!-- SIDE BAR -->
 				<div class="main-right col-xxl-3 mt-3 bg-light ps-5 py-5">
 					<h5 class="og-bg-green p-2 rounded">What's New?</h5>
-					<?php include('php/changelog.php'); ?>	
+					<div class="main-changelogGroup">
+					    <?php include('php/changelog.php'); ?>
+					</div>
+					<button type="button" class="btn btn-info btn-sm">Read More <i class="fa-solid fa-angles-right"></i></button>
 				</div>
 			</div>
 		</main>
