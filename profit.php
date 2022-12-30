@@ -28,31 +28,6 @@
                     </div>
                 </div>
 
-                <!-- PLENNY START -->
-                <div class="profit-group col-xl-6 col-12 p-3">
-                    <div class="text-center my-3 p-2">
-                        <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Plenny's</div>
-                    </div>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="profitToggleable">Lvl</th>
-                                <th scope="col">Item</th>
-                                <th scope="col" class="profitToggleable text-end">Cost</th>
-                                <th scope="col" class="profitToggleable text-end">Sell</th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-end">Profit</th>
-                                <th scope="col"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                <?php include('php/profitPlenny.php'); ?>
-                        </tbody>
-                    </table>
-                </div>
-
                 <!-- PLAYER SHOP START -->
                 <div class="profit-group col-xl-6 col-12 p-3">
                     <div class="text-center my-3 p-2">
@@ -78,6 +53,34 @@
                         </tbody>
                     </table>
                 </div>
+                <!-- PLAYER SHOP END -->
+
+                <!-- PLENNY START -->
+                <div class="profit-group col-xl-6 col-12 p-3">
+                    <div class="text-center my-3 p-2">
+                        <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Plenny's</div>
+                    </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="profitToggleable">Lvl</th>
+                                <th scope="col">Item</th>
+                                <th scope="col" class="profitToggleable text-end">Cost</th>
+                                <th scope="col" class="profitToggleable text-end">Sell</th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="text-end">Profit</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <?php include('php/profitPlenny.php'); ?>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- PLENNY END -->
+
             </div>
 		</main>
 
