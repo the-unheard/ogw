@@ -90,7 +90,7 @@ class Main {
 		$('.profit-table').each((i) =>{
 			// go through each table's profit row
 			$('.profit-table:eq('+i+') .profit-totalProfit').each((j) =>{
-				profits = parseInt($('.profit-table:eq('+i+') .profit-totalProfit').eq(j).text());
+				profit = parseInt($('.profit-table:eq('+i+') .profit-totalProfit').eq(j).text());
 				profits.push(profit);
 			});
 
