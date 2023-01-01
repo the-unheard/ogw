@@ -221,6 +221,15 @@
     		$profitPlayerShopquery = "SELECT * FROM profitplayershop ORDER BY type, name";
     		$profitPlayerShopItems[] = ['Player Shop', mysqli_query($db, $profitPlayerShopquery)];
 
+            $profitMeedItems = array();
+
+            $profitMeedquery = "SELECT * FROM profitmeed ORDER BY type, item";
+            $profitMeedItems[] = ['Meed', mysqli_query($db, $profitMeedquery)];
+
+            $profitCafeItems = array();
+
+            $profitCafequery = "SELECT * FROM profitcafe ORDER BY type, item";
+            $profitCafeItems[] = ['Cafe', mysqli_query($db, $profitCafequery)];
 
         }
 

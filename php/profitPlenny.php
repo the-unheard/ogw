@@ -23,8 +23,8 @@
                         <td class="text-center"><?php if ($farming == "Y") : ?><i class="fa-solid fa-seedling"></i><?php endif; ?></td>
                         <td class="text-center"><?php if ($processing == "Y") : ?><i class="fa-solid fa-mortar-pestle"></i></i><?php endif; ?></td>
                         <td class="text-center"><?php if ($foraging == "Y") : ?><i class="fa-solid fa-tree"></i><?php endif; ?></td>
-                        <td class="text-end profit-plennyProfits"><?= round($profit,0) ?></td>
-                        <td><div class="profit-plennyBar og-bg-profitgreen"></div></td>
+                        <td class="text-end profit-totalProfit"><?= round($profit,0) ?></td>
+                        <td><div class="profit-profitBar og-bg-profitgreen"></div></td>
                     </tr>
 
             <?php } ?>

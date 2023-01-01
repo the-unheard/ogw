@@ -13,12 +13,14 @@ class Main {
 	**/
 	
 	init() {
-		this.events();
+
 		$('#profitCompact').prop('checked', true); //sets compact mode to true by default
-		this.getPlayerProfits();
-		this.getPlennyProfits();
+
+		this.events();
+		this.populateProfits();
 		this.toolTipEnabler();
 		this.dataTable();
+
 	}
 	
 	/** 	adds event listener
@@ -27,10 +29,14 @@ class Main {
 	
 	events() {
 		$(document).on('change', '#profitCompact', (evt) =>{
-			var target = evt.target;
+			let target = evt.target;
 			this.toggleCompact(target);
 		});
 	}
+
+	/** 	toggles Compact Mode
+	 		shows/hides certain columns when Compact Mode is toggled
+	 **/
 
 	toggleCompact(checkbox){
 		if ($(checkbox).is(':checked')){
@@ -42,6 +48,10 @@ class Main {
 			$('.profit-group ').removeClass('col-xl-6');
 		}
 	}
+
+	/** 	enables DataTable
+	 		enables and modifies DataTable, which is a feature that sorts tables
+	 **/
 
 	dataTable() {
 		$('#profit-Player, #profit-Plenny').DataTable({
@@ -56,56 +66,49 @@ class Main {
 		});
 	}
 
+	/** 	enables ToolTip
+	 		required code snippet to make BootStrap 5 ToolTip to work
+	 **/
+
 	toolTipEnabler() {
-		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 			return new bootstrap.Tooltip(tooltipTriggerEl)
 		})
 	}
 
-	/** 	creates the plenny's order elements
-			creates the plenny's order elements
-	**/
-
-	getPlayerProfits() {
-		var profits = [];
-		var profit, width, highestPlayerProfit;
-
-		$('.profit-playerProfits').each((i) =>{
-			profit = parseFloat($('.profit-playerProfits').eq(i).text());
-			profits.push(profit);
-		});
-
-		highestPlayerProfit = Math.max.apply(Math,profits);
-
-		$('.profit-playerBar').each((i) =>{
-			width = profits[i] / highestPlayerProfit * 100;
-			width = width < 1 ? 1 : width;
-			$('.profit-playerBar')[i].style.width = width+'px';
-		});
-	}
-
-	/** 	creates the plenny's order elements
-	 creates the plenny's order elements
+	/** 	populates Profit table's profit bars
+	 		adds a colored bar that represents the amount of profits on each table
 	 **/
 
-	getPlennyProfits() {
-		var profits = [];
-		var profit, width, highestPlennyProfit;
+	populateProfits() {
 
-		$('.profit-plennyProfits').each((i) =>{
-			profit = parseFloat($('.profit-plennyProfits').eq(i).text());
-			profits.push(profit);
+		let profits = [];
+		let profit, highestProfit, width;
+
+		// go through each table
+		$('.profit-table').each((i) =>{
+			// go through each table's profit row
+			$('.profit-table:eq('+i+') .profit-totalProfit').each((j) =>{
+				profits = parseInt($('.profit-table:eq('+i+') .profit-totalProfit').eq(j).text());
+				profits.push(profit);
+			});
+
+			highestProfit = Math.max.apply(Math,profits);
+
+			// go through each table's profit bar
+			$('.profit-table:eq('+i+') .profit-profitBar').each((k) =>{
+				width = profits[k] / highestProfit * 100;
+				width = width < 1 ? 1 : width;
+				$('.profit-table:eq('+i+') .profit-profitBar').eq(k).width(width+'px');
+			});
+
+			// cleans up values for next table loop
+			profits = [];
 		});
 
-		highestPlennyProfit = Math.max.apply(Math,profits);
-
-		$('.profit-plennyBar').each((i) =>{
-			width = profits[i] / highestPlennyProfit * 100;
-			width = width < 1 ? 1 : width;
-			$('.profit-plennyBar')[i].style.width = width+'px';
-		});
 	}
+
 
 }
 
