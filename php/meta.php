@@ -19,11 +19,11 @@
 <link href="fontawesome/css/all.css" rel="stylesheet"/>
 
 <!--[if !IE]><!-->
-		<link rel="stylesheet" href="https://ooblets.guide/css/main.css?v=1672553372" />
+		<link rel="stylesheet" href="https://ooblets.guide/css/main.css?v=1672554572" />
 <!--<![endif]-->
 
 <!--[if gte IE 7]>
-		<link rel="stylesheet" type="text/css" href="/css/main.css?v=1672553372" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css?v=1672554572" media="screen, projection" />
 <![endif]-->
 
 <meta name="description" content="Complete and updated Ooblets list and more useful guides and tools for Ooblets"/>
