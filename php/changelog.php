@@ -1,65 +1,63 @@
-<h6>Dec 30, 2022</h6>
+<h6>Dec 2022</h6>
   <ul>
-    <li>Updated and reworked Profits section</li>
+    <li>31: Added Meed and Cafe in Profits</li>
+    <li>31: Added table sorting in Profits</li>
+    <li>30: Reworked Profits</li>
+    <li>30: Updated Plenny's in Profits</li>
+    <li>30: Added Player Shop in Profits</li>
+    <li>20: Added Ooblet accessories in Clothings</li>
+    <li>19: Added Player clothings in Clothings</li>
+    <li>19: Updated names and prices in Furnitures</li>
+    <li>19: Added all new furnitures in Furnitures</li>
   </ul>
-<h6>Dec 20, 2022</h6>
+<h6>Nov 2022</h6>
   <ul>
-    <li>Added ooblet clothings</li>
+    <li>13: Added filter feature for map</li>
+    <li>13: Updated map locations</li>
   </ul>
-<h6>Dec 19, 2022</h6>
+<h6>Sep 2022</h6>
   <ul>
-    <li>Added all clothings</li>
-    <li>Updated all furniture prices/names</li>
-    <li>Added all new furnitures</li>
+    <li>05: Updated all cards in Almanac</li>
+    <li>05: Added new ooblets, bios, regions in Almanac</li>
   </ul>
-<h6>Nov 13, 2022</h6>
+<h6>May 2022</h6>
   <ul>
-    <li>Added filter feature for map</li>
-    <li>Updated map locations</li>
+    <li>23: Complete website overhaul</li>
+    <li>23: Implemented responsive design</li>
+    <li>23: Added a spoiler-free home page</li>
+    <li>23: Reworked the filter in Almanac</li>
+    <li>23: Performance improvements in Farm planner</li>
+    <li>23: Angkze and Quabbo pixel reworked</li>
+    <li>23: Added Bibbin in Farm Planner</li>
+    <li>23: Performance improvements in Playtest</li>
+    <li>23: More samples in Farm Planner</li>
   </ul>
-<h6>Sep 05, 2022</h6>
+<h6>Dec 2021</h6>
   <ul>
-    <li>Almanac updated with reworked cards</li>
-    <li>New ooblets, bios, regions in Almanac</li>
+    <li>29: Added Bibbin in Almanac</li>
+    <li>29: Updated Jama and Pantsabear in Almanac</li>
+    <li>29: Updated catch rates in Fishing</li>
+    <li>29: Added new furnitures</li>
+    <li>29: Added new recipes</li>
+    <li>29: Added new wishy well items</li>
+    <li>29: Updated slurry items</li>
   </ul>
-<h6>May 23, 2022</h6>
+<h6>Jun 2021</h6>
   <ul>
-    <li>Website overhaul</li>
-    <li>Responsive design</li>
-    <li>Added a home page</li>
-    <li>Adjusted almanac filter</li>
-    <li>Farm planner performance improved</li>
-    <li>Angkze and Quabbo pixel reworked</li>
-    <li>Added Bibbin to Farm Planner</li>
-    <li>Playtest improvement and bugfix</li>
-    <li>More farm samples</li>
+    <li>06: Updated Farm Planner</li>
+    <li>06: Added new almanac entries</li>
+    <li>06: Updated fishing rates</li>
+    <li>06: Added fishing rate calculator</li>
+    <li>06: Added new furnitures</li>
+    <li>06: Added new profitable items</li>
+    <li>06: Added new unlockables</li>
   </ul>
-<h6>Dec 29, 2021</h6>
+<h6>Feb 2021</h6>
   <ul>
-    <li>Added Bibbin almanac entry</li>
-    <li>Updated Jama and Pantsabear entry</li>
-    <li>Updated fishing rates</li>
-    <li>Added new furnitures</li>
-    <li>Added new recipes</li>
-    <li>Added new wishy well items</li>
-    <li>Updated slurry items</li>
-  </ul>
-<h6>Jun 06, 2021</h6>
-  <ul>
-    <li>Updated Farm Planner</li>
-    <li>Added new almanac entries</li>
-    <li>Updated fishing rates</li>
-    <li>Added fishing rate calculator</li>
-    <li>Added new furnitures</li>
-    <li>Added new profitable items</li>
-    <li>Added new unlockables</li>
-  </ul>
-<h6>Feb 06, 2021</h6>
-  <ul>
-    <li>Added Oobcoop Lv5 to the Farm Planner</li>
-    <li>Added Farm Planner image export feature</li>
-    <li>Added true fishing rates</li>
-    <li>Added Wildland's upgrade list</li>
-    <li>Added furnitures, paint, and more</li>
+    <li>06: Added Oobcoop Lv5 to the Farm Planner</li>
+    <li>06: Added Farm Planner image export feature</li>
+    <li>06: Added true fishing rates</li>
+    <li>06: Added Wildland's upgrade list</li>
+    <li>06: Added furnitures, paint, and more</li>
   </ul>
 
