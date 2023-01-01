@@ -1,4 +1,4 @@
-<h6>Dec 2022</h6>
+<h6>December 2022</h6>
   <ul class="list-unstyled">
     <li><span class="changelog-date">31</span> Added Meed and Cafe in Profits</li>
     <li><span class="changelog-date">31</span> Added table sorting in Profits</li>
@@ -10,12 +10,12 @@
     <li><span class="changelog-date">19</span> Updated names and prices in Furnitures</li>
     <li><span class="changelog-date">19</span> Added all new furnitures in Furnitures</li>
   </ul>
-<h6>Nov 2022</h6>
+<h6>November 2022</h6>
   <ul class="list-unstyled">
     <li><span class="changelog-date">13</span> Added filter feature for map</li>
     <li><span class="changelog-date">13</span> Updated map locations</li>
   </ul>
-<h6>Sep 2022</h6>
+<h6>September 2022</h6>
   <ul class="list-unstyled">
     <li><span class="changelog-date">05</span> Updated all cards in Almanac</li>
     <li><span class="changelog-date">05</span> Added new ooblets, bios, regions in Almanac</li>
@@ -32,7 +32,7 @@
     <li><span class="changelog-date">23</span> Performance improvements in Playtest</li>
     <li><span class="changelog-date">23</span> More samples in Farm Planner</li>
   </ul>
-<h6>Dec 2021</h6>
+<h6>December 2021</h6>
   <ul class="list-unstyled">
     <li><span class="changelog-date">29</span> Added Bibbin in Almanac</li>
     <li><span class="changelog-date">29</span> Updated Jama and Pantsabear in Almanac</li>
@@ -42,7 +42,7 @@
     <li><span class="changelog-date">29</span> Added new wishy well items</li>
     <li><span class="changelog-date">29</span> Updated slurry items</li>
   </ul>
-<h6>Jun 2021</h6>
+<h6>June 2021</h6>
   <ul class="list-unstyled">
     <li><span class="changelog-date">06</span> Updated Farm Planner</li>
     <li><span class="changelog-date">06</span> Added new almanac entries</li>
@@ -52,7 +52,7 @@
     <li><span class="changelog-date">06</span> Added new profitable items</li>
     <li><span class="changelog-date">06</span> Added new unlockables</li>
   </ul>
-<h6>Feb 2021</h6>
+<h6>February 2021</h6>
   <ul class="list-unstyled">
     <li><span class="changelog-date">06</span> Added Oobcoop Lv5 to the Farm Planner</li>
     <li><span class="changelog-date">06</span> Added Farm Planner image export feature</li>
