@@ -44,8 +44,11 @@ class Main {
 	}
 
 	dataTable() {
-		$('#profit-Player').DataTable();
-		$('#profit-Plenny').DataTable();
+		$('#profit-Player, #profit-Plenny').DataTable({
+			paging: false,
+			info: false,
+			searching: false,
+		});
 	}
 
 	toolTipEnabler() {
