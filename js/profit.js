@@ -48,6 +48,10 @@ class Main {
 			paging: false,
 			info: false,
 			searching: false,
+			"columnDefs": [{
+				"targets": 'profit-nosort',
+				"orderable": false,
+			}]
 		});
 	}
 

@@ -67,13 +67,13 @@
                             <tr>
                                 <th scope="col" class="profitToggleable">Lvl</th>
                                 <th scope="col">Item</th>
-                                <th scope="col" class="profitToggleable text-end">Cost</th>
-                                <th scope="col" class="profitToggleable text-end">Sell</th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center"></th>
+                                <th scope="col" class="profitToggleable text-end profit-nosort">Cost</th>
+                                <th scope="col" class="profitToggleable text-end profit-nosort">Sell</th>
+                                <th scope="col" class="text-center profit-nosort"></th>
+                                <th scope="col" class="text-center profit-nosort"></th>
+                                <th scope="col" class="text-center profit-nosort"></th>
                                 <th scope="col" class="text-end">Profit</th>
-                                <th scope="col"></th>
+                                <th scope="col" class="profit-nosort"></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -92,6 +92,6 @@
 			<script src='js/jquery.dataTables.min.js'></script>
 			<script src='js/dataTables.bootstrap5.min.js'></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-			<script src='js/profit.js?v=1672548182'></script>
+			<script src='js/profit.js?v=1672548750'></script>
 	</body>
 </html>
