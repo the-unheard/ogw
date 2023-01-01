@@ -54,7 +54,7 @@ class Main {
 	 **/
 
 	dataTable() {
-		$('#profit-Player, #profit-Plenny').DataTable({
+		$('#profit-Player, #profit-Plenny, #profit-Meed, #profit-Cafe').DataTable({
 			autoWidth: false,
 			paging: false,
 			info: false,
