@@ -45,7 +45,7 @@ class Main {
 
 	dataTable() {
 		$('#profit-Player, #profit-Plenny').DataTable({
-			autoWidth: false;
+			autoWidth: false,
 			paging: false,
 			info: false,
 			searching: false,
