@@ -18,7 +18,7 @@ class Main {
 		this.getPlayerProfits();
 		this.getPlennyProfits();
 		this.toolTipEnabler();
-
+		this.dataTable();
 	}
 	
 	/** 	adds event listener
@@ -41,6 +41,11 @@ class Main {
 			$('.profitToggleable').show();
 			$('.profit-group ').removeClass('col-xl-6');
 		}
+	}
+
+	dataTable() {
+		$('#profit-Player').DataTable();
+		$('#profit-Plenny').DataTable();
 	}
 
 	toolTipEnabler() {

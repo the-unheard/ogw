@@ -2,9 +2,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-	<title>Ooblets Guide | Profit</title>
-		<?php include('php/meta.php'); ?>
-	</head>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap5.min.css">
+        <title>Ooblets Guide | Profit</title>
+            <?php include('php/meta.php'); ?>
+        </head>
 	<body>
 		<?php include('php/header.php'); ?>
 
@@ -33,7 +35,7 @@
                     <div class="text-center my-3 p-2">
                         <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Player Shop</div>
                     </div>
-                    <table class="table table-striped">
+                    <table id="profit-Player" class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col" class="profitToggleable">Type</th>
@@ -60,7 +62,7 @@
                     <div class="text-center my-3 p-2">
                         <div class="rounded py-3 text-light mx-auto og-header og-bg-profitgreen">Plenny's</div>
                     </div>
-                    <table class="table table-striped">
+                    <table id="profit-Plenny" class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col" class="profitToggleable">Lvl</th>
@@ -86,8 +88,10 @@
 
 		<?php include('php/footer.php'); ?>
 
-			<script src='js/jquery-3.2.1.min.js'></script>
+			<script src='js/jquery-3.6.3.min.js'></script>
+			<script src='js/jquery.dataTables.min.js'></script>
+			<script src='js/dataTables.bootstrap5.min.js'></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-			<script src='js/profit.js?v=1672377181'></script>
+			<script src='js/profit.js?v=1672548182'></script>
 	</body>
 </html>
