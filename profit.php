@@ -40,14 +40,14 @@
                             <tr>
                                 <th scope="col" class="profitToggleable">Type</th>
                                 <th scope="col">Item</th>
-                                <th scope="col" class="profitToggleable text-end">Cost</th>
-                                <th scope="col" class="profitToggleable text-end">Sell</th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center"></th>
-                                <th scope="col" class="text-center d-none"></th>
+                                <th scope="col" class="profitToggleable text-end profit-nosort">Cost</th>
+                                <th scope="col" class="profitToggleable text-end profit-nosort">Sell</th>
+                                <th scope="col" class="text-center profit-nosort"></th>
+                                <th scope="col" class="text-center profit-nosort"></th>
+                                <th scope="col" class="text-center profit-nosort"></th>
+                                <th scope="col" class="text-center d-none profit-nosort"></th>
                                 <th scope="col" class="text-end">Profit</th>
-                                <th scope="col"></th>
+                                <th scope="col" class="profit-nosort"></th>
                             </tr>
                         </thead>
                         <tbody>
