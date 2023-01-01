@@ -1106,12 +1106,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
-	.profit-playerBar {
-		height: 20px;
-		border-radius: 7px;
-	}
-
-	.profit-plennyBar {
+	.profit-profitBar {
 		height: 20px;
 		border-radius: 7px;
 	}
