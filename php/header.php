@@ -63,12 +63,7 @@
 						</li>
 					</ul>
 				</li>
-				<form action="https://www.paypal.com/donate" method="post" target="_top" class="ms-xl-auto">
-					<input type="hidden" name="cmd" value="_donations">
-					<input type="hidden" name="business" value="K7HLS4YNQKF22">
-					<input type="hidden" name="currency_code" value="USD">
-					<input type="submit" class="nav-link px-4 bg-warning border-0 text-start w-100 fw-bold" name="submit" title="PayPal - The safer, easier way to pay online!" value="Donate">
-				</form>
+				<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'L3L7NV1UA');kofiwidget2.draw();</script>
 			</ul>
 		</div>
 	</div>
