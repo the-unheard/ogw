@@ -186,6 +186,10 @@
 			background: var(--bs-gray-300);
 		}
 
+			.nav-item.dropdown {
+				margin-right: 20px;
+			}
+
 			.nav-item .dropdown-item {
 				font-size: .875em;
 				color: rgba(0,0,0,.55);
