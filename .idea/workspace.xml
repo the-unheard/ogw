@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed changelog link">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,8 +54,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691223024707</updated>
-      <workItem from="1691223026369" duration="808000" />
+      <workItem from="1691223026369" duration="2766000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed changelog link">
+      <created>1691228222646</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691228222646</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
