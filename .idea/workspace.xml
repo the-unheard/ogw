@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9d029a8-b236-4969-896d-e5c1f3fa5ff0" name="Changes" comment="Converted to static">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed changelog link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2TY1kLWsnXhBKKSnR5xwq4eOVE6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2TYbaGg8slLX7ATc2QeOSj9PwLQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,33 +25,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Data\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9d029a8-b236-4969-896d-e5c1f3fa5ff0" name="Changes" comment="" />
-      <created>1691205344225</created>
+      <changelist id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="" />
+      <created>1691223024707</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691205344225</updated>
-      <workItem from="1691205345965" duration="2862000" />
-      <workItem from="1691217646200" duration="1299000" />
-      <workItem from="1691218984088" duration="515000" />
+      <updated>1691223024707</updated>
+      <workItem from="1691223026369" duration="808000" />
     </task>
-    <task id="LOCAL-00001" summary="Converted to static">
-      <created>1691218341434</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691218341434</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,7 +56,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Converted to static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted to static" />
+    <MESSAGE value="Fixed changelog link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed changelog link" />
   </component>
 </project>
