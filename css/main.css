@@ -103,13 +103,13 @@
 }
 
 .og-header {
-	font-family: 'Fredoka One';
+	font-family: 'Fredoka One', sans-serif;
 	font-size: 25px;
 	width:  290px;
 }
 
 .og-header-wide {
-	font-family: 'Fredoka One';
+	font-family: 'Fredoka One', sans-serif;
 	font-size: 25px;
 	width:  350px;
 }
@@ -166,7 +166,7 @@
 */
 
 	.header {
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 		box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05),inset 0 -1px 0 rgba(0,0,0,0.15);
 	}
 
@@ -209,7 +209,7 @@
 */
 
 	footer {
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 	}
 
 /*
@@ -257,12 +257,12 @@
 
 	.almanac-main .main-right .container {
 		border: 2px dashed var(--bs-gray-500);
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 		font-size: 14px;
 	}
 
 	.almanac-ooblets {
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 		font-size: 14px;
 		color: var(--offblackfont2);
 	}
@@ -294,7 +294,7 @@
 				border-bottom: 31px solid transparent;
 				z-index: 0;
 				left: -32px;
-				top: 0px;
+				top: 0;
 				border-left: 30px solid var(--cardcolor);
 				position: relative;
 				display: inline-block;
@@ -353,7 +353,7 @@
 
 	.fp-topcontrols {
 		height: 50px;
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 		color: var(--bs-gray-600);
 		font-size: 14px;
 	}
@@ -366,7 +366,6 @@
 
 			.fp-topcontrols span {
 				font-weight: bold;
-				letter-spacing: 0.4px;
 				margin-right: 10px;
 			}
 
@@ -572,7 +571,7 @@
 						background: -webkit-linear-gradient(180deg, rgba(116,110,238,1) 0%, rgba(203,0,250,1) 100%);
 						background: linear-gradient(180deg, rgba(116,110,238,1) 0%, rgba(203,0,250,1) 100%);
 						filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#746eee",endColorstr="#cb00fa",GradientType=1);
-						height: 0%;
+						height: 0;
 						width: 35px;
 						border-radius: 10px;
 					}
@@ -798,13 +797,13 @@
 			}
 
 		.pt-t-title {
-			font-family: 'Fredoka One';
+			font-family: 'Fredoka One', sans-serif;
 		}
 
 		.pt-t-start {
 			background: #9666d0;
 			border-style: solid;
-			font-family: 'Fredoka One';
+			font-family: 'Fredoka One', sans-serif;
 			letter-spacing: 1px;
 			font-size: 21px;
 		}
@@ -817,11 +816,10 @@
 
 	.fh-topcontrols span {
 		font-weight: bold;
-		letter-spacing: 0.4px;
 		margin: 5px 7px 0 0;
 		color: var(--bs-gray-600);
 		font-size: 14px;
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	.fh-calculate {
@@ -927,7 +925,7 @@
 */
 
 	.furniture-header div {
-		font-family: 'Fredoka One';
+		font-family: 'Fredoka One', sans-serif;
 		width: 290px;
 		font-size: 25px;
 	}
@@ -937,7 +935,7 @@
 			height: 212px;
 			width: 148px;
 			font-size: 14px;
-			font-family: 'Open Sans';
+			font-family: 'Open Sans', sans-serif;
 		}
 
 			.furniture-cost {
@@ -987,11 +985,11 @@
 
 	.tp-main {
 	    font-size: 14px;
-	    font-family: 'Open Sans';
+	    font-family: 'Open Sans', sans-serif;
 	}
 
 		.tp-header div {
-			font-family: 'Fredoka One';
+			font-family: 'Fredoka One', sans-serif;
 			width: 290px;
 			font-size: 25px;
 			background: #d190a8;
@@ -1053,7 +1051,7 @@
 */
 
 	.clothings-header div {
-		font-family: 'Fredoka One';
+		font-family: 'Fredoka One', sans-serif;
 		width: 290px;
 		font-size: 25px;
 	}
@@ -1063,7 +1061,7 @@
 			height: 403px;
 			width: 232px;
 			font-size: 14px;
-			font-family: 'Open Sans';
+			font-family: 'Open Sans', sans-serif;
 		}
 
 			.clothings-cost {
