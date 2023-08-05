@@ -62,12 +62,12 @@ class Main {
 		});
 
 		// trigger upon canvas modal opening
-		$('#almanac-canvasModal').on('show.bs.modal', (evt) =>{
+		$('#almanac-canvasModal').on('show.bs.modal', () =>{
 			this.showCanvas();
 		});
 
 		// trigger upon canvas modal closing
-		$('#almanac-canvasModal').on('hidden.bs.modal', (evt) =>{
+		$('#almanac-canvasModal').on('hidden.bs.modal', () =>{
 			this.hideCanvas();
 		});
 
@@ -79,7 +79,7 @@ class Main {
 	
 	toggleDetail(type, status) {
 
-		if (status == true) {
+		if (status) {
 			$('.almanac-' + type).show();
 		}
 
@@ -101,7 +101,7 @@ class Main {
 		$('.almanac-ooblet').each((i, obj) =>{
 			location = $(obj).find('.almanac-location').text().toLowerCase().replace(/ /g, '');
 			if(location.indexOf(type) != -1) {
-				if (status == true) {
+				if (status) {
 					$(obj).show();
 				}
 				else {
