@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed some errors in almanac.js">
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/import-almanac.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/import-fishing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/import-furniture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/import-profit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/import-unlockables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Created import-*.js, fixed majority of warnings and errors">
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
@@ -19,19 +13,10 @@
       <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mainold.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/layout/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/layout/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/almanac.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/almanac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/farmplanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/farmplanner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/profit.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/profit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
@@ -66,8 +51,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +70,8 @@
       <workItem from="1691223026369" duration="4499000" />
       <workItem from="1691248497313" duration="12000" />
       <workItem from="1691248911186" duration="673000" />
-      <workItem from="1691294225748" duration="19959000" />
+      <workItem from="1691294225748" duration="20982000" />
+      <workItem from="1691323927611" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -110,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691231929147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created import-*.js, fixed majority of warnings and errors">
+      <created>1691322046435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322046435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +130,7 @@
     <MESSAGE value="Fixed &quot;contents&quot; to &quot;content&quot;, fixed extra &quot; in lists in header" />
     <MESSAGE value="Removed custom width on profit bars since they should be added via js instead" />
     <MESSAGE value="Fixed some errors in almanac.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors in almanac.js" />
+    <MESSAGE value="Created import-*.js, fixed majority of warnings and errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created import-*.js, fixed majority of warnings and errors" />
   </component>
 </project>
