@@ -62,7 +62,7 @@
 						width: 316px;
 						max-width: 316px;
 						color: var(--offblackfont);
-						font-family: 'Open Sans';
+						font-family: 'Open Sans', sans-serif;
 						font-size: 14px;
 						padding-top: 8px;
 						opacity: 1 !important;

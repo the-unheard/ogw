@@ -26,7 +26,7 @@ class Main {
 
 		// filter click
 			$(document).on('click', '.filter-map', (evt) => {
-				var target = evt.target;
+				const target = evt.target;
 				this.filterMap($(target).data('ooblet'));
 			});
 	}
@@ -36,7 +36,7 @@ class Main {
 	**/
 
 	filterMap(type){
-		if (type == "all") {
+		if (type === "all") {
 			$('.map-icons div').show();
 		}
 
@@ -51,8 +51,8 @@ class Main {
 	**/
 
 	toolTipEnabler() {
-		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-		var tooltipList = tooltipTriggerList.map((tooltipTriggerEl) => {
+		let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		let tooltipList = tooltipTriggerList.map((tooltipTriggerEl) => {
 			return new bootstrap.Tooltip(tooltipTriggerEl)
 		});
 	}
@@ -63,7 +63,7 @@ class Main {
 
 	populateToolTips() {
 
-		var rawName, imgName, properName, type, title, credit;
+		let rawName, imgName, properName, type, title, credit;
 
 		$('.map-mf, .map-mw').each((i, obj) =>{
 
@@ -113,4 +113,4 @@ class Main {
 
 }
 
-var a = new Main();
+const a = new Main();

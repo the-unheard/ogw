@@ -83,8 +83,8 @@ class Main {
 
 	populateProfits() {
 
-		var profits = new Array();
-		var profit, highestProfit, width;
+		let profits = [];
+		let profit, highestProfit, width;
 
 		// go through each table
 		$('.profit-table').each((i) =>{
@@ -104,7 +104,7 @@ class Main {
 			});
 
 			// cleans up values for next table loop
-			profits = new Array();
+			profits = [];
 		});
 
 	}
@@ -112,5 +112,5 @@ class Main {
 
 }
 
-var a = new Main();
+const a = new Main();
 

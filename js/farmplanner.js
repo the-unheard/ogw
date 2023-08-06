@@ -8,7 +8,7 @@ class Main {
 	constructor (){
 		this.init();
 		this.selected = 'land';
-		this.mouseDown;
+		this.mouseDown = false;
 		this.tileTypes = [
 						{
 							'type': 'land',
@@ -570,14 +570,11 @@ class Main {
 		// always keep one accordion opened
 
 			// when an accordion is opened, disable its data-bs-toggle attribute
+			// when an accordion is closed (by another accordion opening), re-enable its data-bs-toggle attribute
 
 				$('.fp-controlwrap .collapse').on('show.bs.collapse', (evt) => {
 					$(evt.target).parent().find('button').attr('data-bs-toggle', 'disabled');
-				});
-
-			// when an accordion is closed (by another accordion opening), re-enable its data-bs-toggle attribute
-
-				$('.fp-controlwrap .collapse').on('hide.bs.collapse', (evt) => {
+				}).on('hide.bs.collapse', (evt) => {
 					$(evt.target).parent().find('button').attr('data-bs-toggle', 'collapse');
 				});
 
@@ -594,7 +591,7 @@ class Main {
 				this.changeTile(evt.target);
 			});
 
-			$(document).on('mouseup', '.tile', (evt) =>{
+			$(document).on('mouseup', '.tile', () =>{
 				this.mouseDown = false;
 			});
 
@@ -606,19 +603,19 @@ class Main {
 
 		// generate code
 
-			$(document).on('click', '.code-get', (evt) =>{
+			$(document).on('click', '.code-get', () =>{
 				this.generateCode();
 			});
 
 		// apply code
 
-			$(document).on('click', '.code-apply', (evt) =>{
+			$(document).on('click', '.code-apply', () =>{
 				this.generateMap();
 			});
 
 		// copy code
 
-			$(document).on('click', '.code-copy', (evt) =>{
+			$(document).on('click', '.code-copy', () =>{
 				this.copyCode();
 			});
 
@@ -628,13 +625,10 @@ class Main {
 				this.generateSample(evt.target);
 			});
 
-		// trigger upon canvas modal opening
-		$('#fp-canvasModal').on('show.bs.modal', (evt) =>{
+		// trigger upon canvas modal opening and closing
+		$('#fp-canvasModal').on('show.bs.modal', () =>{
 			this.showModal();
-		});
-
-		// trigger upon canvas modal closing
-		$('#fp-canvasModal').on('hidden.bs.modal', (evt) =>{
+		}).on('hidden.bs.modal', () =>{
 			this.closeModal();
 		});
 
@@ -646,9 +640,7 @@ class Main {
 
 	createFarmTiles() {
 
-		var landtype, i;
-
-		for (i=1;i<769;i++){
+		for (let i = 1; i < 769; i++){
 			$('.fp-farm').append(
 				$(document.createElement('div'))
 					.addClass('tile '+this.randomLand())
@@ -665,16 +657,16 @@ class Main {
 
 	randomLand() {
 
-		var random = Math.floor(Math.random() * 20) + 1;
-		var landtype;
+		const random = Math.floor(Math.random() * 20) + 1;
+		let landtype;
 
 		if (random <= 18 ) {
 			landtype = 'land';
 		}
-		else if (random == 19) {
+		else if (random === 19) {
 			landtype = 'land2';
 		}
-		else if (random == 20) {
+		else if (random === 20) {
 			landtype = 'land3';
 		}
 		
@@ -688,14 +680,13 @@ class Main {
 
 	tileSelect(target) {
 
-		var tileType = $(target).attr('class').replace('controls-btn ','');
+		const tileType = $(target).attr('class').replace('controls-btn ','');
 
 		// assigns the tile type based on class name to this.selected
 			this.selected = tileType.replace('nbg','wbg');
 
 		// adds the 'selected' class to the selectedTile preview element
-			$('.fp-selected div').removeClass();
-			$('.fp-selected div').addClass('fp-selectedTile mt-5 og-bg-grassgreen d-inline-block ' + tileType);
+			$('.fp-selected div').removeClass().addClass('fp-selectedTile mt-5 og-bg-grassgreen d-inline-block ' + tileType);
 
 	}
 
@@ -707,7 +698,7 @@ class Main {
 
 		$(target).removeClass();
 
-		if (this.selected == 'land'){
+		if (this.selected === 'land'){
 			$(target).addClass('tile ' + this.randomLand());
 		}
 		else {
@@ -722,20 +713,20 @@ class Main {
 
 	generateCode() {
 
-		var code = '';
-		var tiles = $('.tile');
-		var i, tile;
+		let code = '';
+		const tiles = $('.tile');
+		let i, j, tile;
 
 		for (i = 0; i < tiles.length; i++) {
 
 			tile = tiles.eq(i).attr('class').match(/tile (.*)/)[1];
 
-			if (tile == 'land2' | tile == 'land3') {
+			if (tile === 'land2' || tile === 'land3') {
 				tile = 'land';
 			}
 
-			for(var j = 0; j < this.tileTypes.length; j++){
-				if (tile == this.tileTypes[j]['type']) {
+			for(j = 0; j < this.tileTypes.length; j++){
+				if (tile === this.tileTypes[j]['type']) {
 					code += this.tileTypes[j]['code'];
 					break;
 				}
@@ -753,11 +744,11 @@ class Main {
 
 	generateMap(custom='') {
 		
-		var code = custom == '' ? $('.fp-codeinput').val() : custom;
-		var type, i;
-		var tiles = $('.tile');
+		let code = (custom === '') ? $('.fp-codeinput').val() : custom;
+		let type, i, j;
+		const tiles = $('.tile');
 
-		if (code.length == 1536) {
+		if (code.length === 1536) {
 
 			code = code.split(/(..)/g).filter(s=>s);
 
@@ -766,13 +757,13 @@ class Main {
 
 				type = null;
 
-				for (var j = 0; j < this.tileTypes.length; j++){
+				for (j = 0; j < this.tileTypes.length; j++){
 
-					if(code[i] == this.tileTypes[j]['code']) {
+					if(code[i] === this.tileTypes[j]['code']) {
 
 						type = this.tileTypes[j]['type'];
 
-						if (type == 'land') {
+						if (type === 'land') {
 							type = this.randomLand();
 						}
 
@@ -782,8 +773,9 @@ class Main {
 				}
 
 				if (type == null) {
-					$('.code-error').text(code[i] + ' is an invalid code!');
-					$('.code-error').css('visibility', 'visible');
+					$('.code-error')
+						.text(code[i] + ' is an invalid code!')
+						.css('visibility', 'visible');
 					break;
 				}
 
@@ -797,15 +789,17 @@ class Main {
 		}
 
 		else if (code.length < 1536) {
-			$('.fp-error').text('Oh no! Your code is too short!');
-			$('.fp-error').show();
-			$('.fp-error').delay(3000).fadeOut();
+			$('.fp-error')
+				.text('Oh no! Your code is too short!')
+				.show()
+				.delay(3000).fadeOut();
 		}
 
 		else if (code.length > 1536) {
-			$('.fp-error').text('Oh no! Your code is too long!');
-			$('.fp-error').show();
-			$('.fp-error').delay(3000).fadeOut();
+			$('.fp-error')
+				.text('Oh no! Your code is too long!')
+				.show()
+				.delay(3000).fadeOut();
 		}
 
 	}
@@ -815,8 +809,8 @@ class Main {
 	**/
 
 	generateSample(target) {
-		var sample = $(target).data('type');
-		var code;
+		const sample = $(target).data('type');
+		let code;
 		switch (sample) {
 			case 'd1':
 				code = 	'000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001000000010000000100000001000000010000000000000000000000000000000100030001000300010003000100030001000000000000000000000000000000010000000100000001000000010000000100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000100000001000000010000000100000001000000000000000000000000000000010003000100030001000300010003000100000000000000000000000000000001000000010000000100000001000000010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000011313130113131301131313011313130100000000000000000000000000000001130013011300130113001301130013010000000000000000000000000000000113081301130813011309130113091301000000000000000000000000000000011301130113011301130113011301130100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000115151501151515011515150115151501000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001000000010000000100000001000000010000000000000000000000000000000100030001000300010003000100030001000000000000000000000000000000010000000100000001000000010000000100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000100000001000000010000000100000001000000000000000000000000000000010003000100030001000300010003000100000000000000000000000000000001000000010000000100000001000000010000000000000000000000000000000101010101010101010101010101010101';
@@ -854,7 +848,7 @@ class Main {
 				break;
 		}
 
-		if (code != undefined) {
+		if (code !== undefined) {
 			this.generateMap(code);
 		}
 	}
@@ -865,16 +859,18 @@ class Main {
 
 	copyCode() {
 
-		var code = $('.fp-codeinput').val();
+		const code = $('.fp-codeinput').val();
 
-		navigator.clipboard.writeText(code).then((e) => {
-				$('.fp-error').text('Copied');
-				$('.fp-error').show();
-				$('.fp-error').delay(3000).fadeOut();
-			}, (e) => {
-				$('.fp-error').text('Your browser does not support Clipboard API');
-				$('.fp-error').show();
-				$('.fp-error').delay(3000).fadeOut();
+		navigator.clipboard.writeText(code).then(() => {
+				$('.fp-error')
+					.text('Copied')
+					.show()
+					.delay(3000).fadeOut();
+			}, () => {
+				$('.fp-error')
+					.text('Your browser does not support Clipboard API')
+					.show()
+					.delay(3000).fadeOut();
 		});
 
 	}
@@ -886,7 +882,7 @@ class Main {
 	showModal() {
 
 		window.scrollTo(0,0); 
-		$.when($('.fp-farmwrap').show()).then((evt) =>{
+		$.when($('.fp-farmwrap').show()).then(() =>{
 			html2canvas($('.fp-farmwrap')[0], { allowTaint: true , scrollX:0, scrollY: -window.scrollY }).then(canvas => {
 				$('.modal-body').append(canvas);
 				$('.spinner-border').hide();
@@ -907,4 +903,4 @@ class Main {
 
 }
 
-var a = new Main();
+const a = new Main();

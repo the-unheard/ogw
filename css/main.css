@@ -20,7 +20,7 @@
 	--blue: #90bcd1;
 	--red: #f95a5a;
 	--lightgreen: #5ec472;
-	--darkpurple: #5E5C6C;
+	/*--darkpurple: #5E5C6C;*/
 	--offwhite: #fefdfb;
 	--cardcolor: #ecebf2;
 	--offblackfont: #586168;
@@ -382,6 +382,10 @@
 				padding: 0.25rem 0.75rem;
 				font-size: 14px;
 				border-radius: .25rem 0 0 .25rem;
+			}
+
+			.fp-buttons label {
+				margin-left: 15px;
 			}
 
 			.fp-error {
@@ -851,6 +855,7 @@
 
 			.fh-catch-name {
 				color:  var(--offblackfont);
+				text-transform: capitalize;
 			}
 
 			.fh-catch-qty {
@@ -975,6 +980,7 @@
 
 			.furniture-name {
 				color: var(--offblackfont);
+				text-transform: capitalize;
 			}
 
 /*

@@ -6,8 +6,6 @@ class Main {
 	
 	constructor (){
 		this.init();
-		this.wishlisted;
-		this.oobletsArray;
 	}
 	
 	/** 	initiates Main
@@ -35,39 +33,36 @@ class Main {
 
 		// toggle details
 		$(document).on('change', '.filter-details', (evt) =>{
-			var target = evt.target;
+			const target = evt.target;
 			this.toggleDetail(target.value,$(target).prop('checked'));
 		});
 
 		// toggle locations
 		$(document).on('change', '.filter-location', (evt) =>{
-			var target = evt.target;
+			const target = evt.target;
 			this.toggleLocation(target.value,$(target).prop('checked'));
 		});
 
 		// toggle wishlist mode
 		$(document).on('change', '#filter-wishenabled', (evt) =>{
-			var target = evt.target;
+			const target = evt.target;
 			this.wishMode($(target).prop('checked'));
 		});
 
 		// add to wishlist
 		$(document).on('click', '.clickable-oob', (evt) =>{
-			var target = evt.target;
-			var name = $(target).data('oobname');
-			var type = $(target).data('oobtype');
-			var action = $(target).data('action');
+			const target = evt.target;
+			const name = $(target).data('oobname');
+			const type = $(target).data('oobtype');
+			const action = $(target).data('action');
 			this.updateWishlist(name, type, action);
 			this.applyWishlist();
 		});
 
-		// trigger upon canvas modal opening
+		// trigger upon canvas modal opening and closing
 		$('#almanac-canvasModal').on('show.bs.modal', () =>{
 			this.showCanvas();
-		});
-
-		// trigger upon canvas modal closing
-		$('#almanac-canvasModal').on('hidden.bs.modal', () =>{
+		}).on('hidden.bs.modal', () =>{
 			this.hideCanvas();
 		});
 
@@ -96,11 +91,11 @@ class Main {
 	
 	toggleLocation(type, status) {
 
-		var location;
+		let location;
 
 		$('.almanac-ooblet').each((i, obj) =>{
 			location = $(obj).find('.almanac-location').text().toLowerCase().replace(/ /g, '');
-			if(location.indexOf(type) != -1) {
+			if(location.indexOf(type) !== -1) {
 				if (status) {
 					$(obj).show();
 				}
@@ -159,8 +154,8 @@ class Main {
 
 	updateWishlist(name,type,action) {
 
-		var hasDupe = false; // used for checking if wishlisted item already exists in the array
-		var i;
+		let hasDupe = false; // used for checking if wishlisted item already exists in the array
+		let i;
 
 		switch(action) {
 
@@ -168,7 +163,7 @@ class Main {
 
 				// check for duplicate
 				$.map(this.wishlisted, (val) => {
-				    if(val.name == name && val.type == type) {
+				    if(val.name === name && val.type === type) {
 				    	hasDupe = true;
 				    }
 				});
@@ -178,14 +173,13 @@ class Main {
 					this.wishlisted.push({name:name, type:type});
 				}
 
-
 				break;
 
 			case 'remove':
 
 				// remove from array
 				for (i=0;i<this.wishlisted.length;i++) {
-					if(this.wishlisted[i].name == name && this.wishlisted[i].type == type) {
+					if(this.wishlisted[i].name === name && this.wishlisted[i].type === type) {
 						this.wishlisted.splice(i, 1);
 						break;
 					}
@@ -202,9 +196,9 @@ class Main {
 
 	applyWishlist() {
 
-		var i, fulltype, type, name, number, newurl;
-		var param = '?w=';
-		var url = window.location.href.replace(/\?w=(.*)/,'');
+		let i, fulltype, type, name, number, newurl;
+		let param = '?w=';
+		const url = window.location.href.replace(/\?w=(.*)/,'');
 
 		// clears sidebar wishlist and full-sized wishlist
 		$('.sidebar-wishes').empty();
@@ -281,7 +275,7 @@ class Main {
 	showCanvas() {
 
 		window.scrollTo(0,0); 
-		$.when($('.canvas-credit').show()).then((evt) =>{
+		$.when($('.canvas-credit').show()).then(() =>{
 			html2canvas($('.almanac-fullwish')[0], { allowTaint: true , scrollX:0, scrollY: -window.scrollY }).then(canvas => {
 				$('.modal-body').append(canvas);
 				$('.spinner-border').hide();
@@ -326,12 +320,12 @@ class Main {
 
 	wishFromUrl() {
 
-		var url = window.location.href;
-		var i, name, type;
-		var oobArray;
+		const url = window.location.href;
+		let i, name, type;
+		let oobArray;
 
 		if (url.indexOf("?w=") > -1) {
-			oobArray = url.match(/\?w=(.*)/,'')[1].split(/-/);
+			oobArray = url.match(/\?w=(.*)/)[1].split(/-/);
 
 			for(i=0;i<oobArray.length;i++){
 
@@ -347,4 +341,4 @@ class Main {
 	}
 }
 
-var a = new Main();
+const a = new Main();
