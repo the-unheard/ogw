@@ -10,7 +10,7 @@ gulp.task('update-css-version', () => {
 });
 
 gulp.task('apply-meta', () => {
-   const metaContent = require('fs').readFileSync('sub/meta.html', 'utf8');
+   const metaContent = require('fs').readFileSync('includes/meta.html', 'utf8');
 
    return gulp.src(['*.html'])
        .pipe(replace(/<!-- region META -->([\s\S]*?)<!-- endregion END META -->/, metaContent))
@@ -20,7 +20,7 @@ gulp.task('apply-meta', () => {
 });
 
 gulp.task('apply-meta-inner', () => {
-    const metaContent = require('fs').readFileSync('sub/meta_inner.html', 'utf8');
+    const metaContent = require('fs').readFileSync('includes/meta_inner.html', 'utf8');
 
     return gulp.src(['clothings/*.html'])
         .pipe(replace(/<!-- region META -->([\s\S]*?)<!-- endregion END META -->/, metaContent))
