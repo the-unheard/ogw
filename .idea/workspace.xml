@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added gulp for versioning and cache busting">
-      <change beforePath="$PROJECT_DIR$/js/import-almanac.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-almanac.js" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed almanac issue with certain ooblets not alphabetically arranged">
+      <change afterPath="$PROJECT_DIR$/js/import-clothings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/import-oobacc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +71,9 @@
       <workItem from="1691248497313" duration="12000" />
       <workItem from="1691248911186" duration="673000" />
       <workItem from="1691294225748" duration="20982000" />
-      <workItem from="1691323927611" duration="2479000" />
+      <workItem from="1691323927611" duration="3214000" />
+      <workItem from="1691341495686" duration="4000" />
+      <workItem from="1691371361260" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -97,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691326266926</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed almanac issue with certain ooblets not alphabetically arranged">
+      <created>1691326466864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691326466864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +148,7 @@
     <MESSAGE value="Fixed some errors in almanac.js" />
     <MESSAGE value="Created import-*.js, fixed majority of warnings and errors" />
     <MESSAGE value="Added gulp for versioning and cache busting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gulp for versioning and cache busting" />
+    <MESSAGE value="Fixed almanac issue with certain ooblets not alphabetically arranged" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed almanac issue with certain ooblets not alphabetically arranged" />
   </component>
 </project>
