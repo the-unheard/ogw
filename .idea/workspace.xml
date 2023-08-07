@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed almanac issue with certain ooblets not alphabetically arranged">
-      <change afterPath="$PROJECT_DIR$/js/import-clothings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/import-oobacc.js" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added import js for clothing pages">
+      <change afterPath="$PROJECT_DIR$/sub/meta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub/meta_inner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
@@ -16,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
@@ -30,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -46,9 +49,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="20.5.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="20.4.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -56,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\sub" />
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\" />
     </key>
   </component>
@@ -73,7 +80,7 @@
       <workItem from="1691294225748" duration="20982000" />
       <workItem from="1691323927611" duration="3214000" />
       <workItem from="1691341495686" duration="4000" />
-      <workItem from="1691371361260" duration="2791000" />
+      <workItem from="1691371361260" duration="8439000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -124,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691326466864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added import js for clothing pages">
+      <created>1691374293110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691374293110</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +163,7 @@
     <MESSAGE value="Created import-*.js, fixed majority of warnings and errors" />
     <MESSAGE value="Added gulp for versioning and cache busting" />
     <MESSAGE value="Fixed almanac issue with certain ooblets not alphabetically arranged" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed almanac issue with certain ooblets not alphabetically arranged" />
+    <MESSAGE value="Added import js for clothing pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added import js for clothing pages" />
   </component>
 </project>

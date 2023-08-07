@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const replace = require('gulp-replace');
-const version = Math.floor(Date.now() / 1000);
 
 gulp.task('update-css-version', () => {
     return gulp.src(['*.html', 'clothings/*.html' ])
@@ -10,4 +9,24 @@ gulp.task('update-css-version', () => {
         }));
 });
 
-gulp.task('default', gulp.series('update-css-version'));
+gulp.task('apply-meta', () => {
+   const metaContent = require('fs').readFileSync('sub/meta.html', 'utf8');
+
+   return gulp.src(['*.html'])
+       .pipe(replace(/<!-- region META -->([\s\S]*?)<!-- endregion END META -->/, metaContent))
+       .pipe(gulp.dest((file) => {
+           return file.base;
+       }));
+});
+
+gulp.task('apply-meta-inner', () => {
+    const metaContent = require('fs').readFileSync('sub/meta_inner.html', 'utf8');
+
+    return gulp.src(['clothings/*.html'])
+        .pipe(replace(/<!-- region META -->([\s\S]*?)<!-- endregion END META -->/, metaContent))
+        .pipe(gulp.dest((file) => {
+            return file.base;
+        }));
+});
+
+gulp.task('default', gulp.series('update-css-version', 'apply-meta', 'apply-meta-inner'));
