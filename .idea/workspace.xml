@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated changelog">
-      <change afterPath="$PROJECT_DIR$/images/clothings/bottoms/pastel_purple_jeans.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/bottoms/spring_skirt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/outfits/dark_overalls_(green).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/outfits/dark_overalls_(peach).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/outfits/eggshell_overalls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/outfits/light_turquoise_overalls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/tops/fancy_spring_shirt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/tops/spring_sweater.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clothings/tops/spring_t-shirt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/drawers/split-level_sideboard_(chalk).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/drawers/split-level_sideboard_(chalky_blue).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/drawers/split-level_sideboard_(dark_blue).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/drawers/split-level_sideboard_(dark_wood).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/drawers/split-level_sideboard_(lilac).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/shelves/the_collectors_case_(chalk).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/shelves/the_collectors_case_(chalky_blue).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/shelves/the_collectors_case_(dark_blue).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/shelves/the_collectors_case_(dark_wood).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/furnitures/shelves/the_collectors_case_(lilac).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes.">
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/badgetown_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/badgetown_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/badgetown_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/mamoonia_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/mamoonia_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/mamoonia_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/nullwhere_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/nullwhere_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/nullwhere_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/oobtrotter_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/oobtrotter_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/oobtrotter_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/pantsabear_hill_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/pantsabear_hill_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/pantsabear_hill_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/port_forward_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/port_forward_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/port_forward_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/tippy_top_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/tippy_top_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/glimmyglobes/tippy_top_fancy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
@@ -35,9 +36,8 @@
       <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/import-clothings.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-clothings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/import-furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-furniture.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
@@ -106,7 +106,9 @@
       <workItem from="1691341495686" duration="4000" />
       <workItem from="1691371361260" duration="11994000" />
       <workItem from="1691413739354" duration="3920000" />
-      <workItem from="1691461596131" duration="5557000" />
+      <workItem from="1691461596131" duration="6807000" />
+      <workItem from="1691487435529" duration="30000" />
+      <workItem from="1691504960219" duration="1580000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691419853315</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes.">
+      <created>1691471881286</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691471881286</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +232,7 @@
     <MESSAGE value="Renamed sub to includes" />
     <MESSAGE value="Added taterflop to almanac" />
     <MESSAGE value="Updated changelog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog" />
+    <MESSAGE value="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes." />
   </component>
 </project>
