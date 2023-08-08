@@ -29,4 +29,14 @@ gulp.task('apply-meta-inner', () => {
         }));
 });
 
-gulp.task('default', gulp.series('update-css-version', 'apply-meta', 'apply-meta-inner'));
+gulp.task('apply-changelog', () => {
+    const changelogContent = require('fs').readFileSync('includes/changelog.html', 'utf8');
+
+    return gulp.src(['index.html', 'changelog.html'])
+        .pipe(replace(/<!-- region CHANGELOG -->([\s\S]*?)<!-- endregion CHANGELOG -->/, changelogContent))
+        .pipe(gulp.dest((file) => {
+            return file.base;
+        }));
+});
+
+gulp.task('default', gulp.series('update-css-version', 'apply-meta', 'apply-meta-inner', 'apply-changelog'));
