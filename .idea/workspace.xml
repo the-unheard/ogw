@@ -1,27 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added glimmyglobes and new wallpapers">
-      <change afterPath="$PROJECT_DIR$/images/farm/c_bunglebee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/c_gopslop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/c_rockstack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/c_taterflop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/g_bunglebee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/g_gopslop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/g_rockstack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/g_taterflop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/u_bunglebee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/u_gopslop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/u_rockstack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/farm/u_taterflop.png" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added glimmyglobe tracker">
+      <change afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/badgetown_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/badgetown_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/badgetown_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/mamoonia_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/mamoonia_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/mamoonia_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/nullwhere_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/nullwhere_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/nullwhere_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_angkze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_bibbin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_bittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_bristlebud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_bunglebee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_chickadingding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_clickyclaws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_clomper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_derble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_dooziedug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_dumbirb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_firmo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_fleeble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_fripp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_glanter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_gloopylonglegs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_gopslop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_grebun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_gubwee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_gullysplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_gumple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_hermble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_isopud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_jama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_kingwa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_legsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_lickzer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_lumpstump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_marshling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_moogy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_namnam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_nuppo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_oogum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_pantsabear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_petula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_plob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_quabbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_radlad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_rockstack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_shrumbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_sidekey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_skuffalo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_snurfler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_spuddle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_tamlin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_taterflop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_tud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_unnyhunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_whirlitzer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_wigglewip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/c_wuddlin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/ooblets/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/oobtrotter_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/oobtrotter_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/oobtrotter_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/pantsabear_hill_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/pantsabear_hill_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/pantsabear_hill_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/port_forward_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/port_forward_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/port_forward_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/tippy_top_basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/tippy_top_exquisite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glimmyglobes-tracker/tippy_top_fancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/glimmyglobe-tracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/html2canvas.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/farmplanner.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/farmplanner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/farm/c_gullysplots.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/farm/c_gullysplot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/farm/g_gullysplots.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/farm/g_gullysplot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/farm/u_gullysplots.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/farm/u_gullysplot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ooblets/gullysplot_g.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ooblets/gullysplot_g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ooblets/pantsabear_u.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ooblets/pantsabear_u.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/farmplanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/farmplanner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/html2canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +111,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,6 +121,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2TYbaGg8slLX7ATc2QeOSj9PwLQ" />
   <component name="ProjectLevelVcsManager">
@@ -60,7 +143,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="20.4.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -88,7 +171,9 @@
       <workItem from="1691461596131" duration="6807000" />
       <workItem from="1691487435529" duration="30000" />
       <workItem from="1691504960219" duration="2590000" />
-      <workItem from="1691554133974" duration="5268000" />
+      <workItem from="1691554133974" duration="7118000" />
+      <workItem from="1691579641135" duration="19185000" />
+      <workItem from="1691637207243" duration="32605000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -188,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691506721052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added new ooblets to the farm planner. Added farm planner populate ooblet function.">
+      <created>1691559545688</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691559545688</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +313,8 @@
     <MESSAGE value="Updated changelog" />
     <MESSAGE value="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes." />
     <MESSAGE value="Added glimmyglobes and new wallpapers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added glimmyglobes and new wallpapers" />
+    <MESSAGE value="Added new ooblets to the farm planner. Added farm planner populate ooblet function." />
+    <MESSAGE value="Added glimmyglobe tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added glimmyglobe tracker" />
   </component>
 </project>

@@ -1003,9 +1003,9 @@ class Main {
 
 	showModal() {
 
-		window.scrollTo(0,0); 
+		window.scrollTo(0,0);
 		$.when($('.fp-farmwrap').show()).then(() =>{
-			html2canvas($('.fp-farmwrap')[0], { allowTaint: true , scrollX:0, scrollY: -window.scrollY }).then(canvas => {
+			html2canvas($('.fp-farmwrap')[0], {allowTaint: true , scrollX:0, scrollY: -window.scrollY }).then(canvas => {
 				$('.modal-body').append(canvas);
 				$('.spinner-border').hide();
 			});

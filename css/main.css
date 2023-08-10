@@ -186,7 +186,7 @@
 			background: var(--bs-gray-300);
 		}
 
-			.nav-item.dropdown {
+			.navbar-nav li:last-of-type {
 				margin-right: 20px;
 			}
 
@@ -1131,4 +1131,88 @@
 	#profitCompact, .profit-legends {
 		position: relative;
 		top: 2px;
+	}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	GLIMMYGLOBES TRACKER
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* Progress */
+
+.gg-tracker-progress1 {
+	width: 300px;
+	font-family: 'Cute Font', sans-serif;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.65);
+}
+
+.gg-tracker-progress1 .progress1-title span {
+	font-size: 16px;
+	margin-top: 6px;
+}
+
+.gg-tracker-progress1 .progress1-header {
+	font-size: 19px;
+}
+
+.gg-tracker-progress1 .progress1-header i {
+	font-size: 12px;
+}
+
+.gg-bg-common {
+	background: rgb(151,118,129);
+	background: linear-gradient(90deg, rgba(151,118,129,1) 0%, rgba(96,70,87,1) 100%);
+}
+
+.gg-bg-uncommon {
+	background: rgb(233,214,128);
+	background: linear-gradient(90deg, rgba(233,214,128,1) 0%, rgba(225,155,74,1) 100%);
+}
+
+.gg-bg-gleamy {
+	background: rgb(106, 163, 214);
+	background: linear-gradient(90deg, rgba(76, 214, 137, 1) 0%, rgba(106, 163, 214, 1) 100%);
+}
+
+
+
+	/* Tracker */
+
+.gg-tracker-main th {
+	font-size: 13px;
+}
+
+.gg-tracker-main th, .gg-tracker-main td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.gg-tracker-main td {
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+	.gg-tracker-main td:not(.gg-tracker-img) {
+		filter: grayscale(100%) brightness(170%);
+	}
+
+	.gg-tracker-main td:not(.gg-tracker-name, .gg-tracker-img) {
+		cursor: pointer;
+	}
+
+	.gg-tracker-name {
+		font-size: 13px;
+	}
+
+	.gg-tracker-owned {
+		filter: none !important;
+	}
+
+	.gg-tracker-badgetown-b {
+		background: url('../images/glimmyglobes-tracker/badgetown_basic.png');
+	}
+
+	.gg-tracker-bordered {
+		border-right: 1px solid #ddd;
 	}
