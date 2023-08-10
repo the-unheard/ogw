@@ -243,17 +243,17 @@ class Main {
     updateProgress(letter, num) {
         switch(letter) {
             case 'a':
-            case 'd':
-            case 'g':
+            case 'b':
+            case 'c':
                 this.progressCommon += num;
                 break;
-            case 'b':
+            case 'd':
             case 'e':
-            case 'h':
+            case 'f':
                 this.progressUncommon += num;
                 break;
-            case 'c':
-            case 'f':
+            case 'g':
+            case 'h':
             case 'i':
                 this.progressGleamy += num;
                 break;
