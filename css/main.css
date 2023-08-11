@@ -182,7 +182,7 @@
 			background: var(--bs-gray-300);
 		}
 
-		.nav-item .dropdown-menu li.active {
+		.nav-item .dropdown-menu li.active, .nav-item .dropdown-item.active {
 			background: var(--bs-gray-300);
 		}
 
