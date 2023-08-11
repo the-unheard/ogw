@@ -186,10 +186,6 @@
 			background: var(--bs-gray-300);
 		}
 
-			.navbar-nav li:last-of-type {
-				margin-right: 20px;
-			}
-
 			.nav-item .dropdown-item {
 				font-size: .875em;
 				color: rgba(0,0,0,.55);
@@ -197,6 +193,10 @@
 
 				.nav-item .dropdown-item:active {
 					background-color: var(--bs-gray-500);
+				}
+
+				.nav-bar > div:last-of-type {
+					margin-left: .5rem;
 				}
 
 		

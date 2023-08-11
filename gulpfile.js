@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const replace = require('gulp-replace');
 
-gulp.task('update-css-version', () => {
+gulp.task('update-versions', () => {
     return gulp.src(['*.html', 'clothings/*.html' ])
         .pipe(replace(/(\.(css|js)\?v=)\d+\b/g, `$1${Date.now()}`))
         .pipe(gulp.dest((file) => {
@@ -59,7 +59,7 @@ gulp.task('apply-header-inner', () => {
         }));
 });
 
-gulp.task('default', gulp.series('update-css-version', 'apply-meta', 'apply-meta-inner', 'apply-changelog', 'apply-header'));
+gulp.task('default', gulp.series('update-versions', 'apply-meta', 'apply-meta-inner', 'apply-changelog', 'apply-header'));
 
 gulp.task('headers', gulp.series('apply-header', 'apply-header-inner'));
-gulp.task('css', gulp.series('update-css-version'));
+gulp.task('uversions', gulp.series('update-versions'));

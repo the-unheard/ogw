@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed incorrect counter for glimmyglobe tracker">
-      <change afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/header_inner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed header nav not highlighting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
@@ -21,7 +18,9 @@
       <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glimmyglobe-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
@@ -99,7 +98,7 @@
       <workItem from="1691579641135" duration="19185000" />
       <workItem from="1691637207243" duration="33720000" />
       <workItem from="1691691580125" duration="620000" />
-      <workItem from="1691719676332" duration="5898000" />
+      <workItem from="1691719676332" duration="6532000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691691933724</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added header to gulp task">
+      <created>1691725639613</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691725639613</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +285,9 @@
     <MESSAGE value="Readded html2canvas js" />
     <MESSAGE value="Fixed center alignment and padding on glimmyglobe-tracker" />
     <MESSAGE value="Fixed incorrect counter for glimmyglobe tracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed incorrect counter for glimmyglobe tracker" />
+    <MESSAGE value="Added header to gulp task" />
+    <MESSAGE value="Fixed header nav not highlighting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed header nav not highlighting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

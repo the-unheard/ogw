@@ -16,7 +16,7 @@ class HeaderMain {
             path = 'index';
         }
 
-        path = path.replace(/\\/, '').replace('clothings', '');
+        path = path.replace(/\//, '').replace('clothings', '');
 
         $('.nav-item-' + path).addClass('active');
 
