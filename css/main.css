@@ -195,11 +195,9 @@
 					background-color: var(--bs-gray-500);
 				}
 
-				.nav-bar > div:last-of-type {
+				.navbar-nav > div:last-of-type {
 					margin-left: .5rem;
 				}
-
-		
 
 
 /*
