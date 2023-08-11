@@ -39,4 +39,27 @@ gulp.task('apply-changelog', () => {
         }));
 });
 
-gulp.task('default', gulp.series('update-css-version', 'apply-meta', 'apply-meta-inner', 'apply-changelog'));
+gulp.task('apply-header', () => {
+    const headerContent = require('fs').readFileSync('includes/header.html', 'utf8');
+
+    return gulp.src(['*.html'])
+        .pipe(replace(/<!-- region HEADER -->([\s\S]*?)<!-- endregion HEADER -->/, headerContent))
+        .pipe(gulp.dest((file) => {
+            return file.base;
+        }));
+});
+
+gulp.task('apply-header-inner', () => {
+    const headerContent = require('fs').readFileSync('includes/header_inner.html', 'utf8');
+
+    return gulp.src(['clothings/*.html'])
+        .pipe(replace(/<!-- region HEADER -->([\s\S]*?)<!-- endregion HEADER -->/, headerContent))
+        .pipe(gulp.dest((file) => {
+            return file.base;
+        }));
+});
+
+gulp.task('default', gulp.series('update-css-version', 'apply-meta', 'apply-meta-inner', 'apply-changelog', 'apply-header'));
+
+gulp.task('headers', gulp.series('apply-header', 'apply-header-inner'));
+gulp.task('css', gulp.series('update-css-version'));
