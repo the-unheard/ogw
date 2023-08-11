@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed minor css issue with donate button and changed glimmyglobes to glimmyglobe">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed minor css issue with nav bar">
+      <change beforePath="$PROJECT_DIR$/includes/header_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_inner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <workItem from="1691579641135" duration="19185000" />
       <workItem from="1691637207243" duration="33720000" />
       <workItem from="1691691580125" duration="620000" />
-      <workItem from="1691719676332" duration="6818000" />
+      <workItem from="1691719676332" duration="7108000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691726392740</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Fixed minor css issue with nav bar">
+      <created>1691726569061</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1691726569061</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +288,8 @@
     <MESSAGE value="Added header to gulp task" />
     <MESSAGE value="Fixed header nav not highlighting" />
     <MESSAGE value="Fixed minor css issue with donate button and changed glimmyglobes to glimmyglobe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed minor css issue with donate button and changed glimmyglobes to glimmyglobe" />
+    <MESSAGE value="Fixed minor css issue with nav bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed minor css issue with nav bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
