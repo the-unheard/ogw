@@ -21,7 +21,7 @@ class Main {
 							'fripp','glanter','gloopylonglegs','grebun','gubwee','gullysplot','gumple','hermble','isopud','jama','kingwa',
 							'legsy','lickzer','lumpstump','marshling','moogy','namnam','nuppo','oogum','pantsabear','petula','plob','radlad',
 							'shrumbo','sidekey','skuffalo','snurfler','spuddle','tamlin','tud','unnyhunny','whirlitzer','wigglewip', 'wuddlin',
-							'angkze', 'quabbo', 'bibbin', 'bunglebee', 'gopslop', 'rockstack', 'taterflop'];
+							'angkze', 'quabbo', 'bibbin', 'bunglebee', 'gopslop', 'rockstack', 'taterflop', 'xanaboo'];
 		this.wishFromUrl();
 	}
 	

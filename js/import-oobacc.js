@@ -63,7 +63,14 @@ const oobaccData = [
     {"id":"62","type":"hats","name":"party hat","location":"steal","cost":"0"},
     {"id":"63","type":"glasses","name":"lil mask","location":"halloween","cost":"16"},
     {"id":"64","type":"necks","name":"baby cape","location":"halloween","cost":"16"},
-    {"id":"65","type":"necks","name":"lil spooky wings","location":"halloween","cost":"16"}
+    {"id":"65","type":"necks","name":"lil spooky wings","location":"halloween","cost":"16"},
+    {"id":"66","type":"hats","name":"lil aqua baby helmet","location":"halloween","cost":"0"},
+    {"id":"67","type":"hats","name":"lil purple baby helmet","location":"halloween","cost":"0"},
+    {"id":"68","type":"hats","name":"lil red baby helmet","location":"halloween","cost":"0"},
+    {"id":"69","type":"hats","name":"lil baby wild hair","location":"halloween","cost":"0"},
+    {"id":"70","type":"wands","name":"blue beam stix","location":"halloween","cost":"0"},
+    {"id":"71","type":"wands","name":"green beam stix","location":"halloween","cost":"0"},
+    {"id":"72","type":"wands","name":"reed beam stix","location":"halloween","cost":"0"}
 ];
 
 toTitleCase = (str) => {return str.replace(/(?:^|\s)\w/g, (match) => { return match.toUpperCase()})}

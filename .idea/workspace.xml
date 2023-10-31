@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed replace error in main js">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added xanaboo to the almanac and outfits from halloween 2023 event">
+      <change afterPath="$PROJECT_DIR$/images/clothings/accessories/bride_of_bunglehive_hair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/accessories/clowny_headgear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/accessories/crawly_hat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/bottoms/cone_creature_costume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/bottoms/gloombun_costume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/bottoms/gourd_fit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/bottoms/hopdob_costume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_aqua_baby_helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_baby_wild_hair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_purple_baby_helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_red_baby_helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/wands/blue_beam_stix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/wands/green_beam_stix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/wands/red_beam_stix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/outfits/jack-o-lantern_dress.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/outfits/witchy_dress.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/tops/bristlebud_shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/tops/clickyclaws_shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/tops/clickywings_shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/tops/clomper_shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/tops/lumpstump_shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/tops/toothy_shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ooblets/xanaboo_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ooblets/xanaboo_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ooblets/xanaboo_u.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobe-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/almanac.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/almanac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/import-almanac.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-almanac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/import-clothings.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-clothings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/import-oobacc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-oobacc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +124,11 @@
       <workItem from="1691579641135" duration="19185000" />
       <workItem from="1691637207243" duration="33720000" />
       <workItem from="1691691580125" duration="620000" />
-      <workItem from="1691719676332" duration="7583000" />
+      <workItem from="1691719676332" duration="8940000" />
+      <workItem from="1697176561667" duration="53000" />
+      <workItem from="1697266655234" duration="609000" />
+      <workItem from="1698633741850" duration="3350000" />
+      <workItem from="1698760464149" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -267,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691727128682</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed an issue where clothing active is blue and not gray">
+      <created>1691727350204</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1691727350204</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,8 +345,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed &quot;contents&quot; to &quot;content&quot;, fixed extra &quot; in lists in header" />
-    <MESSAGE value="Removed custom width on profit bars since they should be added via js instead" />
     <MESSAGE value="Fixed some errors in almanac.js" />
     <MESSAGE value="Created import-*.js, fixed majority of warnings and errors" />
     <MESSAGE value="Added gulp for versioning and cache busting" />
@@ -311,7 +368,9 @@
     <MESSAGE value="Fixed minor css issue with inner nav bar" />
     <MESSAGE value="Fixed glimmyglobes typo in inner nav bar" />
     <MESSAGE value="Fixed replace error in main js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed replace error in main js" />
+    <MESSAGE value="Fixed an issue where clothing active is blue and not gray" />
+    <MESSAGE value="Added xanaboo to the almanac and outfits from halloween 2023 event" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added xanaboo to the almanac and outfits from halloween 2023 event" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,13 +378,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/almanac.html</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/clothings/accessories.html</url>
           <line>127</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
