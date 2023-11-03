@@ -1,16 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added xanaboo to the almanac and outfits from halloween 2023 event">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Really fixed broken halloween 2023 ooblet accessories">
+      <change afterPath="$PROJECT_DIR$/images/furnitures/beds/spooky_angular_bed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/drawers/moderately-haunted_dresser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/black_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/blue_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/green_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/pink_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/purple_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/red_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/kitchen/white_retro_fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/floor_jacky_lanty_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/floor_jacky_lanty_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/pummin_plops_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/pummin_plops_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/pummins_mat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/reglued_pot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/reglued_pot_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/others/reglued_pot_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_large_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_large_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_large_display_case_(ice).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_large_display_case_(rose).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_large_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_medium_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_medium_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_medium_display_case_(ice).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_medium_display_case_(rose).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_medium_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_large_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_large_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_large_display_case_(ice).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_large_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_large_display_case_(teal).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_medium_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_medium_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_medium_display_case_(ice).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_medium_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_medium_display_case_(teal).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_small_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_small_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_small_display_case_(ice).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_small_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/nice_small_display_case_(teal).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_large_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_large_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_large_display_case_(pink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_large_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_large_display_case_(teal).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_medium_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_medium_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_medium_display_case_(pink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_medium_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_medium_display_case_(teal).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_small_display_case_(brown).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_small_display_case_(cream).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_small_display_case_(pink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_small_display_case_(rust).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/playershop/pro_small_display_case_(teal).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/shelves/spooky_display_cabinet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/tables/moderately-haunted_side_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/trinkets/pummin_plant_pot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/trinkets/pummin_plant_pot_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/trinkets/skelly_head_decor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/trinkets/skelly_head_pot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/trinkets/skelly_head_pot_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/walldecors/kinda-haunted_eye_mirror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/walldecors/wall_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/walldecors/wall_teeth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/wallpapers/cobby_wallpaper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/wallpapers/gourd_noodles_wallpaper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/wallpapers/not_quite_spooky_wallpaper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/wallpapers/spooky_skelly_wallpaper_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/furnitures/wallpapers/stoney_wall.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_aqua_baby_helmet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_baby_wild_hair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_purple_baby_helmet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/hats/lil_red_baby_helmet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/wands/blue_beam_stix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/wands/green_beam_stix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clothings/oobaccessories/wands/red_beam_stix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/import-oobacc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-oobacc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/kitchen/retro_fridge.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/kitchen/yellow_retro_fridge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/tables/basic_small_display_case_(brown).png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_small_display_case_(brown).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/tables/basic_small_display_case_(dark).png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_small_display_case_(cream).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/tables/basic_small_display_case_(ice).png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_small_display_case_(ice).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/tables/basic_small_display_case_(rose).png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_small_display_case_(rose).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/tables/basic_small_display_case_(rust).png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/playershop/basic_small_display_case_(rust).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/furnitures/wallpapers/spooky_bone_wallpaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/furnitures/wallpapers/spooky_skelly_wallpaper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/import-furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-furniture.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +130,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\images\furnitures\playershop" />
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\sub" />
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\" />
     </key>
@@ -89,7 +163,8 @@
       <workItem from="1697266655234" duration="609000" />
       <workItem from="1698633741850" duration="3350000" />
       <workItem from="1698760464149" duration="2784000" />
-      <workItem from="1698771960223" duration="408000" />
+      <workItem from="1698771960223" duration="578000" />
+      <workItem from="1699020098897" duration="2703000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -294,7 +369,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698762675540</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed broken halloween 2023 ooblet accessories">
+      <created>1698772404185</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698772404185</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Really fixed broken halloween 2023 ooblet accessories">
+      <created>1698772466398</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1698772466398</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,8 +402,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed some errors in almanac.js" />
-    <MESSAGE value="Created import-*.js, fixed majority of warnings and errors" />
     <MESSAGE value="Added gulp for versioning and cache busting" />
     <MESSAGE value="Fixed almanac issue with certain ooblets not alphabetically arranged" />
     <MESSAGE value="Added import js for clothing pages" />
@@ -338,7 +425,9 @@
     <MESSAGE value="Fixed replace error in main js" />
     <MESSAGE value="Fixed an issue where clothing active is blue and not gray" />
     <MESSAGE value="Added xanaboo to the almanac and outfits from halloween 2023 event" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added xanaboo to the almanac and outfits from halloween 2023 event" />
+    <MESSAGE value="Fixed broken halloween 2023 ooblet accessories" />
+    <MESSAGE value="Really fixed broken halloween 2023 ooblet accessories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Really fixed broken halloween 2023 ooblet accessories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
