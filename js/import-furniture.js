@@ -378,7 +378,7 @@ const furnitureData = [
     {"type":"wallpapers","name":"gourd noodles wallpaper","location":"Halloween","cost":"0"},
     {"type":"wallpapers","name":"not quite spooky wallpaper","location":"Halloween","cost":"0"},
     {"type":"wallpapers","name":"spooky skelly wallpaper dark","location":"Halloween","cost":"0"},
-    {"type":"wallpapers","name":"stoney wallpaper","location":"Halloween","cost":"0"},
+    {"type":"wallpapers","name":"stoney wall","location":"Halloween","cost":"0"},
 ];
 
 furnitureData.sort((a, b) => a.name.localeCompare(b.name));
