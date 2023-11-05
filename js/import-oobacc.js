@@ -42,6 +42,7 @@ const oobaccData = [
     {"type":"hats","name":"tall crown","location":"story\/frenz","cost":"0"},
     {"type":"hats","name":"top hat","location":"peaksnubs","cost":"16"},
     {"type":"hats","name":"witchy hat","location":"vampire bento","cost":"0"},
+
     {"type":"necks","name":"baby cape","location":"halloween","cost":"16"},
     {"type":"necks","name":"backpacky","location":"mossprouts","cost":"16"},
     {"type":"necks","name":"bow tie (blue)","location":"story\/frenz","cost":"0"},
@@ -52,7 +53,9 @@ const oobaccData = [
     {"type":"necks","name":"lil spooky wings","location":"halloween","cost":"16"},
     {"type":"necks","name":"ruff","location":"peaksnubs","cost":"16"},
     {"type":"necks","name":"tutu","location":"frunbuns","cost":"16"},
+
     {"type":"shoes","name":"baby skates","location":"pantsabear hills","cost":"0"},
+
     {"type":"wands","name":"bat","location":"mossprouts","cost":"16"},
     {"type":"wands","name":"blue beam stix","location":"halloween","cost":"0"},
     {"type":"wands","name":"blue chalk","location":"dance barn","cost":"0"},
@@ -71,7 +74,42 @@ const oobaccData = [
     {"type":"wands","name":"sophisticated umbrella","location":"story\/frenz","cost":"0"},
     {"type":"wands","name":"star umbrella","location":"story\/frenz","cost":"0"},
     {"type":"wands","name":"transmitter","location":"dance barn","cost":"0"},
-    {"type":"wands","name":"water pistol","location":"mimpins","cost":"16"}
+    {"type":"wands","name":"water pistol","location":"mimpins","cost":"16"},
+
+    {"type":"oobmobiles","name":"baby yaga","location":"halloween","cost":"300"},
+    {"type":"oobmobiles","name":"black amelia","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"black maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"black speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"black sportsycar","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"blue maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"blue speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"blue sportsycar","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"faceful pummin","location":"halloween","cost":"300"},
+    {"type":"oobmobiles","name":"faceless pummin","location":"halloween","cost":"300"},
+    {"type":"oobmobiles","name":"green sportsycar","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"green tractor","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"pink maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"pink speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"pink sportsycar","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"purple rodrod amelia","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"red maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"red speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"red sportsycar","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"red zoomy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"steermark","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"teal big loud truck","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"teal maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"teal saucy ship","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"teal speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"white maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"white speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"white sportsycar","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"witchy broom","location":"halloween","cost":"300"},
+    {"type":"oobmobiles","name":"yellow maxwell","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"yellow propella","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"yellow saucy ship","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"yellow speedy","location":"town hall","cost":"300"},
+    {"type":"oobmobiles","name":"yellow sportsycar","location":"town hall","cost":"300"}
 ];
 
 toTitleCase = (str) => {return str.replace(/(?:^|\s)\w/g, (match) => { return match.toUpperCase()})}

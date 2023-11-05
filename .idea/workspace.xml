@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed typo of stoney wall from stoney wallpaper">
-      <change beforePath="$PROJECT_DIR$/js/import-furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-furniture.js" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed typo of pro large display cases to teal from ice">
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/baby_yaga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/black_amelia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/black_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/black_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/black_sportsycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/blue_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/blue_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/blue_sportsycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/faceful_pummin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/faceless_pummin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/green_sportsycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/green_tractor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/pink_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/pink_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/pink_sportsycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/purple_rodrod_amelia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/red_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/red_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/red_sportsycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/red_zoomy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/steermark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/teal_big_loud_truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/teal_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/teal_saucy_ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/teal_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/white_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/white_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/white_sportsycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/witchy_broom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/yellow_maxwell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/yellow_propella.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/yellow_saucy_ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/yellow_speedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clothings/oobaccessories/oobmobiles/yellow_sportsycar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobe-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/import-oobacc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-oobacc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +136,8 @@
       <workItem from="1698633741850" duration="3350000" />
       <workItem from="1698760464149" duration="2784000" />
       <workItem from="1698771960223" duration="578000" />
-      <workItem from="1699020098897" duration="3306000" />
+      <workItem from="1699020098897" duration="4027000" />
+      <workItem from="1699167368958" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -323,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699024555426</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fixed typo of pro large display cases to teal from ice">
+      <created>1699024837252</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1699024837252</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +403,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Created gulp task that adds meta content, changed meta content description for Ooblets" />
     <MESSAGE value="Renamed sub to includes" />
     <MESSAGE value="Added taterflop to almanac" />
     <MESSAGE value="Updated changelog" />
@@ -367,7 +427,8 @@
     <MESSAGE value="Added halloween 2023 furnitures and playershop cases" />
     <MESSAGE value="Fixed wrong class name for playershop div" />
     <MESSAGE value="Fixed typo of stoney wall from stoney wallpaper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo of stoney wall from stoney wallpaper" />
+    <MESSAGE value="Fixed typo of pro large display cases to teal from ice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo of pro large display cases to teal from ice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
