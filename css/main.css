@@ -1110,6 +1110,15 @@
 				text-transform: capitalize;
 			}
 
+	.oobacc-oobmobiles .clothings-img {
+		height: 128px;
+		width: 128px;
+	}
+
+	.oob-acc-oobmobiles .clothings-item {
+		height: 214px;
+	}
+
 /*
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	PROFIT
