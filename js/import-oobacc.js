@@ -114,7 +114,15 @@ const oobaccData = [
 
 toTitleCase = (str) => {return str.replace(/(?:^|\s)\w/g, (match) => { return match.toUpperCase()})}
 
+let imgExtension;
+
 oobaccData.forEach(item => {
+
+    if(item.type !== 'oobmobiles')
+        imgExtension  = '.jpg';
+    else
+        imgExtension = '.png';
+
    $('.oobacc-' + item.type).append(
        $(document.createElement('div'))
            .addClass('clothings-item d-inline-block m-2 p-3 align-top og-bg-gray-200 position-relative')
@@ -131,7 +139,7 @@ oobaccData.forEach(item => {
            .append(
                $(document.createElement('div'))
                    .addClass('clothings-img mx-auto')
-                   .css('background-image', 'url("../images/clothings/oobaccessories/' + item.type + '/' + item.name.replace(/ /g, '_').replace(/'/g, '') + '.jpg")')
+                   .css('background-image', 'url("../images/clothings/oobaccessories/' + item.type + '/' + item.name.replace(/ /g, '_').replace(/'/g, '') + imgExtension + '")')
            )
            .append(
                $(document.createElement('p'))
