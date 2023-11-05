@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed oobmobiles css">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed oobmobiles css typo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <workItem from="1698760464149" duration="2784000" />
       <workItem from="1698771960223" duration="578000" />
       <workItem from="1699020098897" duration="4027000" />
-      <workItem from="1699167368958" duration="1721000" />
+      <workItem from="1699167368958" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -352,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699168747782</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fixed oobmobiles css typo">
+      <created>1699169137980</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1699169137980</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +380,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes." />
     <MESSAGE value="Added glimmyglobes and new wallpapers" />
     <MESSAGE value="Added new ooblets to the farm planner. Added farm planner populate ooblet function." />
     <MESSAGE value="Added glimmyglobe tracker" />
@@ -396,7 +404,8 @@
     <MESSAGE value="Added oobmobiles" />
     <MESSAGE value="Fixed oobmobiles images" />
     <MESSAGE value="Fixed oobmobiles css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed oobmobiles css" />
+    <MESSAGE value="Fixed oobmobiles css typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed oobmobiles css typo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
