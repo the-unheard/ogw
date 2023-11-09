@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added glimmyglobe to header">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Changed glimmyglobes gallery url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glimmyglobes.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_inner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +87,7 @@
       <workItem from="1699167368958" duration="3125000" />
       <workItem from="1699252621408" duration="173000" />
       <workItem from="1699498225090" duration="305000" />
-      <workItem from="1699507313475" duration="8735000" />
-    </task>
-    <task id="LOCAL-00002" summary="Fixed &quot;contents&quot; to &quot;content&quot;, fixed extra &quot; in lists in header">
-      <created>1691230687472</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691230687472</updated>
+      <workItem from="1699507313475" duration="9179000" />
     </task>
     <task id="LOCAL-00003" summary="Removed custom width on profit bars since they should be added via js instead">
       <created>1691231654783</created>
@@ -435,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699521873497</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Changed glimmyglobes gallery url">
+      <created>1699522396326</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1699522396326</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed minor css issue with inner nav bar" />
     <MESSAGE value="Fixed glimmyglobes typo in inner nav bar" />
     <MESSAGE value="Fixed replace error in main js" />
     <MESSAGE value="Fixed an issue where clothing active is blue and not gray" />
@@ -479,7 +475,8 @@
     <MESSAGE value="Adjusted the size of glimmyglobes and made them smaller" />
     <MESSAGE value="Changed glimmyglobe images to clickable img from div" />
     <MESSAGE value="Added glimmyglobe to header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added glimmyglobe to header" />
+    <MESSAGE value="Changed glimmyglobes gallery url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed glimmyglobes gallery url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
