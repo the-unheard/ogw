@@ -1237,7 +1237,7 @@ GLIMMYGLOBES
 }
 
 .glimmyglobes-item {
-	height: 340px;
+	height: 281px;
 	width: 268px;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
@@ -1256,8 +1256,7 @@ GLIMMYGLOBES
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 4px;
 }
 
 .glimmyglobes-name {

@@ -14,12 +14,7 @@ glimmyglobesData.forEach(ooblet =>{
         globeType.forEach(type => {
             $('.glimmyglobes-' + rarity).append(
                 $(document.createElement('div'))
-                    .addClass('glimmyglobes-item d-inline-block m-3 p-3 align-top og-bg-gray-200 position-relative')
-                    .append(
-                        $(document.createElement('span'))
-                            .addClass('glimmyglobes-ooblet position-absolute og-bg-gray-400')
-                            .text(ooblet)
-                    )
+                    .addClass('glimmyglobes-item d-inline-block m-1 p-3 align-top og-bg-gray-200 position-relative')
                     .append(
                         $(document.createElement('div'))
                             .addClass('glimmyglobes-img mx-auto')
@@ -29,7 +24,7 @@ glimmyglobesData.forEach(ooblet =>{
                         $(document.createElement('p'))
                             .addClass('glimmyglobes-name og-ellipsis')
                             .attr('title', toTitleCase(rarity) + ' ' + toTitleCase(ooblet) + ' - ' + toTitleCase(type) + ' Glimmyglobe')
-                            .text(type)
+                            .text(rarity + ' ' + ooblet + ' - ' + type + ' Glimmyglobe')
                     )
             )
         })
