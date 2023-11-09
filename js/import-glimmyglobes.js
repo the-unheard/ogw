@@ -21,11 +21,11 @@ glimmyglobesData.forEach(ooblet =>{
                     .append(
                         $(document.createElement('a'))
                             .addClass('glimmyglobes-link')
-                            .attr('href', 'images/glimmyglobes/small/'+ rarity[0] +'_' + ooblet + '_'+ type[0] +'.jpg')
+                            .attr('href', 'images/glimmyglobes/full/'+ rarity[0] +'_' + ooblet + '_'+ type[0] +'.jpg')
                             .append(
                                 $(document.createElement('img'))
                                     .addClass('glimmyglobes-img mx-auto')
-                                    .attr('src', 'images/glimmyglobes/small/'+ rarity[0] +'_' + ooblet + '_'+ type[0] +'.jpg"')
+                                    .attr('src', 'images/glimmyglobes/small/'+ rarity[0] +'_' + ooblet + '_'+ type[0] +'.jpg')
                                     .attr('alt', fullName)
                             )
                     )
