@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Changed glimmyglobe images to clickable img from div">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added glimmyglobe to header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobes.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_inner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/import-glimmyglobes.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-glimmyglobes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +90,7 @@
       <workItem from="1699167368958" duration="3125000" />
       <workItem from="1699252621408" duration="173000" />
       <workItem from="1699498225090" duration="305000" />
-      <workItem from="1699507313475" duration="8212000" />
-    </task>
-    <task id="LOCAL-00001" summary="Fixed changelog link">
-      <created>1691228222646</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691228222646</updated>
+      <workItem from="1699507313475" duration="8735000" />
     </task>
     <task id="LOCAL-00002" summary="Fixed &quot;contents&quot; to &quot;content&quot;, fixed extra &quot; in lists in header">
       <created>1691230687472</created>
@@ -435,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699515991749</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added glimmyglobe to header">
+      <created>1699521873497</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1699521873497</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed minor css issue with nav bar" />
     <MESSAGE value="Fixed minor css issue with inner nav bar" />
     <MESSAGE value="Fixed glimmyglobes typo in inner nav bar" />
     <MESSAGE value="Fixed replace error in main js" />
@@ -479,7 +478,8 @@
     <MESSAGE value="Fixed background color and font color of glimmyglobes gallery" />
     <MESSAGE value="Adjusted the size of glimmyglobes and made them smaller" />
     <MESSAGE value="Changed glimmyglobe images to clickable img from div" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed glimmyglobe images to clickable img from div" />
+    <MESSAGE value="Added glimmyglobe to header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added glimmyglobe to header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
