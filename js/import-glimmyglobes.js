@@ -14,7 +14,7 @@ glimmyglobesData.forEach(ooblet =>{
         globeType.forEach(type => {
             $('.glimmyglobes-' + rarity).append(
                 $(document.createElement('div'))
-                    .addClass('glimmyglobes-item d-inline-block m-1 p-3 align-top og-bg-gray-200 position-relative')
+                    .addClass('glimmyglobes-item d-inline-block m-1 p-3 align-top position-relative')
                     .append(
                         $(document.createElement('div'))
                             .addClass('glimmyglobes-img mx-auto')

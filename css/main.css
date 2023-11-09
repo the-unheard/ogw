@@ -1241,6 +1241,7 @@ GLIMMYGLOBES
 	width: 268px;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
+	background: #1c2630;
 }
 
 .glimmyglobes-ooblet {
@@ -1260,6 +1261,6 @@ GLIMMYGLOBES
 }
 
 .glimmyglobes-name {
-	color: var(--offblackfont);
+	color: #b9b9b9;
 	text-transform: capitalize;
 }

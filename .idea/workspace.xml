@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added glimmyglobes gallery">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed css of glimmyglobes gallery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/import-glimmyglobes.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-glimmyglobes.js" afterDir="false" />
@@ -89,7 +89,7 @@
       <workItem from="1699167368958" duration="3125000" />
       <workItem from="1699252621408" duration="173000" />
       <workItem from="1699498225090" duration="305000" />
-      <workItem from="1699507313475" duration="3047000" />
+      <workItem from="1699507313475" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed changelog link">
       <created>1691228222646</created>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699509655470</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Fixed css of glimmyglobes gallery">
+      <created>1699510406540</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1699510406540</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +425,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed incorrect counter for glimmyglobe tracker" />
     <MESSAGE value="Added header to gulp task" />
     <MESSAGE value="Fixed header nav not highlighting" />
     <MESSAGE value="Fixed minor css issue with donate button and changed glimmyglobes to glimmyglobe" />
@@ -443,7 +449,8 @@
     <MESSAGE value="Fixed changelog, removed taterflop on november changelog" />
     <MESSAGE value="Updated gleamy pantsabear image" />
     <MESSAGE value="Added glimmyglobes gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added glimmyglobes gallery" />
+    <MESSAGE value="Fixed css of glimmyglobes gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed css of glimmyglobes gallery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
