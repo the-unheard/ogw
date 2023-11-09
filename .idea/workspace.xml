@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed a navbar issue where navbar item is not highlighted properly">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated changelog after adding glimmyglobes gallery">
+      <change afterPath="$PROJECT_DIR$/images/map/tooltips/wildlands-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/map/tooltips/wildlands-19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +92,8 @@
       <workItem from="1699167368958" duration="3125000" />
       <workItem from="1699252621408" duration="173000" />
       <workItem from="1699498225090" duration="305000" />
-      <workItem from="1699507313475" duration="10107000" />
-    </task>
-    <task id="LOCAL-00005" summary="Created import-*.js, fixed majority of warnings and errors">
-      <created>1691322046435</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691322046435</updated>
+      <workItem from="1699507313475" duration="10973000" />
+      <workItem from="1699525275447" duration="638000" />
     </task>
     <task id="LOCAL-00006" summary="Added gulp for versioning and cache busting">
       <created>1691326266926</created>
@@ -432,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699523480886</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Updated changelog after adding glimmyglobes gallery">
+      <created>1699523785573</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1699523785573</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed an issue where clothing active is blue and not gray" />
     <MESSAGE value="Added xanaboo to the almanac and outfits from halloween 2023 event" />
     <MESSAGE value="Fixed broken halloween 2023 ooblet accessories" />
     <MESSAGE value="Really fixed broken halloween 2023 ooblet accessories" />
@@ -476,7 +481,8 @@
     <MESSAGE value="Changed glimmyglobes gallery url" />
     <MESSAGE value="Fixed an issue where header inner didn't apply to clothing pages" />
     <MESSAGE value="Fixed a navbar issue where navbar item is not highlighted properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a navbar issue where navbar item is not highlighted properly" />
+    <MESSAGE value="Updated changelog after adding glimmyglobes gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog after adding glimmyglobes gallery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
