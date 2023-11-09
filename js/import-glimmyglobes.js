@@ -22,6 +22,8 @@ glimmyglobesData.forEach(ooblet =>{
                         $(document.createElement('a'))
                             .addClass('glimmyglobes-link')
                             .attr('href', 'images/glimmyglobes/full/'+ rarity[0] +'_' + ooblet + '_'+ type[0] +'.jpg')
+                            .attr('target', '_blank')
+                            .attr('rel', 'noopener noreferrer')
                             .append(
                                 $(document.createElement('img'))
                                     .addClass('glimmyglobes-img mx-auto')
