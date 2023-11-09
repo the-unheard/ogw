@@ -1222,3 +1222,45 @@
 	.gg-tracker-bordered {
 		border-right: 1px solid #ddd;
 	}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+GLIMMYGLOBES
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+.glimmyglobes-header div {
+	font-family: 'Fredoka One', sans-serif;
+	width: 290px;
+	font-size: 25px;
+}
+
+.glimmyglobes-item {
+	height: 340px;
+	width: 268px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.glimmyglobes-ooblet {
+	top: 7px;
+	left: 0;
+	width: 100%;
+	color: #94a0aa;
+}
+
+.glimmyglobes-img {
+	height: 233px;
+	width: 233px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.glimmyglobes-name {
+	color: var(--offblackfont);
+	text-transform: capitalize;
+}
