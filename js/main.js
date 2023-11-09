@@ -16,6 +16,13 @@ class HeaderMain {
             path = 'index';
         }
 
+        if(path.includes('clothings')) {
+            $('#clothingDropdown').addClass('active');
+        }
+        else if(path.includes('glimmyglobe')) {
+            $('#glimmyglobesDropdown').addClass('active');
+        }
+
         path = path.replace(/\//g, '').replace('clothings', '');
 
         $('.nav-item-' + path + ' a').addClass('active');

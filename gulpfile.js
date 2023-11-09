@@ -59,7 +59,6 @@ gulp.task('apply-header-inner', () => {
         }));
 });
 
-gulp.task('default', gulp.series('update-versions', 'apply-meta', 'apply-meta-inner', 'apply-changelog', 'apply-header'));
-
+gulp.task('default', gulp.series('update-versions', 'apply-meta', 'apply-meta-inner', 'apply-changelog', 'apply-header', 'apply-header-inner'));
 gulp.task('headers', gulp.series('apply-header', 'apply-header-inner'));
 gulp.task('uversions', gulp.series('update-versions'));
