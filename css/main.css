@@ -268,7 +268,7 @@
 			max-width: 450px;
 		}
 
-		.almanac-variant, .almanac-cards, .almanac-food, .almanac-bio {
+		.almanac-variant, .almanac-cards, .almanac-food, .almanac-bio, .almanac-seeds {
 			margin: 0 auto;
 			display: none;
 		}

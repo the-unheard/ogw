@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated changelog after adding glimmyglobes gallery">
-      <change afterPath="$PROJECT_DIR$/images/map/tooltips/wildlands-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/map/tooltips/wildlands-19.png" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated lost ooblet map">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobe-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobe-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/import-almanac.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/import-almanac.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +109,8 @@
       <workItem from="1699252621408" duration="173000" />
       <workItem from="1699498225090" duration="305000" />
       <workItem from="1699507313475" duration="10973000" />
-      <workItem from="1699525275447" duration="638000" />
-    </task>
-    <task id="LOCAL-00006" summary="Added gulp for versioning and cache busting">
-      <created>1691326266926</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691326266926</updated>
+      <workItem from="1699525275447" duration="1271000" />
+      <workItem from="1699957047798" duration="699000" />
     </task>
     <task id="LOCAL-00007" summary="Fixed almanac issue with certain ooblets not alphabetically arranged">
       <created>1691326466864</created>
@@ -438,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699523785573</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Updated lost ooblet map">
+      <created>1699525952195</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1699525952195</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added xanaboo to the almanac and outfits from halloween 2023 event" />
     <MESSAGE value="Fixed broken halloween 2023 ooblet accessories" />
     <MESSAGE value="Really fixed broken halloween 2023 ooblet accessories" />
     <MESSAGE value="Added halloween 2023 furnitures and playershop cases" />
@@ -482,7 +498,8 @@
     <MESSAGE value="Fixed an issue where header inner didn't apply to clothing pages" />
     <MESSAGE value="Fixed a navbar issue where navbar item is not highlighted properly" />
     <MESSAGE value="Updated changelog after adding glimmyglobes gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog after adding glimmyglobes gallery" />
+    <MESSAGE value="Updated lost ooblet map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated lost ooblet map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

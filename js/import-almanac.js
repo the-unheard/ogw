@@ -94,7 +94,7 @@ almanacData.forEach(ooblet => {
                                                             .data('action', 'add')
                                                             .data('oobname', ooblet.name.toLowerCase())
                                                             .data('oobtype', 'g')
-                                                            .attr('src', 'images/ooblets/' + ooblet.name.toLowerCase() + '_g.png')
+                                                            .attr('src', 'images/ooblets/' + ooblet.image + '_g.png')
                                                     )
                                             )
                                             // common
@@ -107,7 +107,7 @@ almanacData.forEach(ooblet => {
                                                             .data('action', 'add')
                                                             .data('oobname', ooblet.name.toLowerCase())
                                                             .data('oobtype', 'c')
-                                                            .attr('src', 'images/ooblets/' + ooblet.name.toLowerCase() + '_c.png')
+                                                            .attr('src', 'images/ooblets/' + ooblet.image + '_c.png')
                                                     )
                                             )
                                             // uncommon
@@ -120,7 +120,7 @@ almanacData.forEach(ooblet => {
                                                             .data('action', 'add')
                                                             .data('oobname', ooblet.name.toLowerCase())
                                                             .data('oobtype', 'u')
-                                                            .attr('src', 'images/ooblets/' + ooblet.name.toLowerCase() + '_u.png')
+                                                            .attr('src', 'images/ooblets/' + ooblet.image + '_u.png')
                                                     )
                                             )
                                     )
@@ -146,6 +146,45 @@ almanacData.forEach(ooblet => {
                                                 $(document.createElement('div'))
                                                     .addClass('col-4')
                                                     .text('Uncommon')
+                                            )
+                                    )
+                            )
+                            // seed
+                            .append(
+                                $(document.createElement('div'))
+                                    .addClass('col-12 almanac-seeds')
+                                    .append(
+                                        $(document.createElement('div'))
+                                            .addClass('row my-2')
+                                            // gleamy
+                                            .append(
+                                                $(document.createElement('div'))
+                                                    .addClass('col-4 p-0')
+                                                    .append(
+                                                        $(document.createElement('img'))
+                                                            .addClass('d-flex my-0 mx-auto')
+                                                            .attr('src', 'images/seeds/' + ooblet.image + '_g.png')
+                                                    )
+                                            )
+                                            // common
+                                            .append(
+                                                $(document.createElement('div'))
+                                                    .addClass('col-4 p-0')
+                                                    .append(
+                                                        $(document.createElement('img'))
+                                                            .addClass('d-flex my-0 mx-auto')
+                                                            .attr('src', 'images/seeds/' + ooblet.image + '_c.png')
+                                                    )
+                                            )
+                                            // uncommon
+                                            .append(
+                                                $(document.createElement('div'))
+                                                    .addClass('col-4 p-0')
+                                                    .append(
+                                                        $(document.createElement('img'))
+                                                            .addClass('d-flex my-0 mx-auto')
+                                                            .attr('src', 'images/seeds/' + ooblet.image + '_u.png')
+                                                    )
                                             )
                                     )
                             )
