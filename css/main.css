@@ -273,6 +273,11 @@
 			display: none;
 		}
 
+		.almanac-seeds img {
+			max-height: 80px;
+			max-width: 80px;
+		}
+
 		.almanac-variant {
 			color: var(--offblackfont);
 		}
