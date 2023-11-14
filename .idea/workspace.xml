@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Added seeds to almanac">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated seed sizes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
@@ -90,14 +90,7 @@
       <workItem from="1699498225090" duration="305000" />
       <workItem from="1699507313475" duration="10973000" />
       <workItem from="1699525275447" duration="1271000" />
-      <workItem from="1699957047798" duration="1446000" />
-    </task>
-    <task id="LOCAL-00008" summary="Added import js for clothing pages">
-      <created>1691374293110</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691374293110</updated>
+      <workItem from="1699957047798" duration="2174000" />
     </task>
     <task id="LOCAL-00009" summary="Created gulp task that adds meta content, changed meta content description for Ooblets">
       <created>1691381495149</created>
@@ -435,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699957784170</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Updated seed sizes">
+      <created>1699958789689</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1699958789689</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Really fixed broken halloween 2023 ooblet accessories" />
     <MESSAGE value="Added halloween 2023 furnitures and playershop cases" />
     <MESSAGE value="Fixed wrong class name for playershop div" />
     <MESSAGE value="Fixed typo of stoney wall from stoney wallpaper" />
@@ -479,7 +478,8 @@
     <MESSAGE value="Updated changelog after adding glimmyglobes gallery" />
     <MESSAGE value="Updated lost ooblet map" />
     <MESSAGE value="Added seeds to almanac" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added seeds to almanac" />
+    <MESSAGE value="Updated seed sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated seed sizes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
