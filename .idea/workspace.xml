@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated seed vertical alignment">
-      <change beforePath="$PROJECT_DIR$/includes/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/changelog.html" afterDir="false" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated changelog for seeds">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +89,8 @@
       <workItem from="1699498225090" duration="305000" />
       <workItem from="1699507313475" duration="10973000" />
       <workItem from="1699525275447" duration="1271000" />
-      <workItem from="1699957047798" duration="2283000" />
-    </task>
-    <task id="LOCAL-00010" summary="Renamed sub to includes">
-      <created>1691387752951</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1691387752951</updated>
+      <workItem from="1699957047798" duration="2495000" />
+      <workItem from="1699965797892" duration="1017000" />
     </task>
     <task id="LOCAL-00011" summary="Added taterflop to almanac">
       <created>1691414808135</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699960126996</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Updated changelog for seeds">
+      <created>1699960304954</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1699960304954</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed wrong class name for playershop div" />
     <MESSAGE value="Fixed typo of stoney wall from stoney wallpaper" />
     <MESSAGE value="Fixed typo of pro large display cases to teal from ice" />
     <MESSAGE value="Added oobmobiles" />
@@ -478,7 +478,8 @@
     <MESSAGE value="Added seeds to almanac" />
     <MESSAGE value="Updated seed sizes" />
     <MESSAGE value="Updated seed vertical alignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated seed vertical alignment" />
+    <MESSAGE value="Updated changelog for seeds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog for seeds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
