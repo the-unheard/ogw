@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Changed map to bigger and rotated image">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/map/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/map/map.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated map css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,14 +89,7 @@
       <workItem from="1699525275447" duration="1271000" />
       <workItem from="1699957047798" duration="2495000" />
       <workItem from="1699965797892" duration="1017000" />
-      <workItem from="1700023140078" duration="2459000" />
-    </task>
-    <task id="LOCAL-00013" summary="Added spring event clothings, new furnitures, clothing. Updated changelog and added it to includes.">
-      <created>1691471881286</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1691471881286</updated>
+      <workItem from="1700023140078" duration="2859000" />
     </task>
     <task id="LOCAL-00014" summary="Added glimmyglobes and new wallpapers">
       <created>1691506721052</created>
@@ -438,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700025207276</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Updated map css">
+      <created>1700028968195</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1700028968195</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added oobmobiles" />
     <MESSAGE value="Fixed oobmobiles images" />
     <MESSAGE value="Fixed oobmobiles css" />
     <MESSAGE value="Fixed oobmobiles css typo" />
@@ -482,7 +477,8 @@
     <MESSAGE value="Updated changelog for seeds" />
     <MESSAGE value="Fixed images of pantsabear gleamy, and all xanaboo in almanac" />
     <MESSAGE value="Changed map to bigger and rotated image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed map to bigger and rotated image" />
+    <MESSAGE value="Updated map css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated map css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
