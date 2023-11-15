@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated changelog for seeds">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Fixed images of pantsabear gleamy, and all xanaboo in almanac">
+      <change afterPath="$PROJECT_DIR$/images/map/map.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +93,7 @@
       <workItem from="1699525275447" duration="1271000" />
       <workItem from="1699957047798" duration="2495000" />
       <workItem from="1699965797892" duration="1017000" />
-    </task>
-    <task id="LOCAL-00011" summary="Added taterflop to almanac">
-      <created>1691414808135</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1691414808135</updated>
+      <workItem from="1700023140078" duration="1074000" />
     </task>
     <task id="LOCAL-00012" summary="Updated changelog">
       <created>1691419853315</created>
@@ -435,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699960304954</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Fixed images of pantsabear gleamy, and all xanaboo in almanac">
+      <created>1700023408493</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1700023408493</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed typo of stoney wall from stoney wallpaper" />
     <MESSAGE value="Fixed typo of pro large display cases to teal from ice" />
     <MESSAGE value="Added oobmobiles" />
     <MESSAGE value="Fixed oobmobiles images" />
@@ -479,7 +481,8 @@
     <MESSAGE value="Updated seed sizes" />
     <MESSAGE value="Updated seed vertical alignment" />
     <MESSAGE value="Updated changelog for seeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog for seeds" />
+    <MESSAGE value="Fixed images of pantsabear gleamy, and all xanaboo in almanac" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed images of pantsabear gleamy, and all xanaboo in almanac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
