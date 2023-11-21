@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated map css" />
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated map, less sharpened">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,14 +92,8 @@
       <workItem from="1699525275447" duration="1271000" />
       <workItem from="1699957047798" duration="2495000" />
       <workItem from="1699965797892" duration="1017000" />
-      <workItem from="1700023140078" duration="2859000" />
-    </task>
-    <task id="LOCAL-00014" summary="Added glimmyglobes and new wallpapers">
-      <created>1691506721052</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1691506721052</updated>
+      <workItem from="1700023140078" duration="3621000" />
+      <workItem from="1700607740073" duration="68000" />
     </task>
     <task id="LOCAL-00015" summary="Added new ooblets to the farm planner. Added farm planner populate ooblet function.">
       <created>1691559545688</created>
@@ -434,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700028968195</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Updated map, less sharpened">
+      <created>1700029367508</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1700029367508</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed oobmobiles images" />
     <MESSAGE value="Fixed oobmobiles css" />
     <MESSAGE value="Fixed oobmobiles css typo" />
     <MESSAGE value="Updated changelog and donation message" />
@@ -478,7 +481,8 @@
     <MESSAGE value="Fixed images of pantsabear gleamy, and all xanaboo in almanac" />
     <MESSAGE value="Changed map to bigger and rotated image" />
     <MESSAGE value="Updated map css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated map css" />
+    <MESSAGE value="Updated map, less sharpened" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated map, less sharpened" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
