@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated map, less sharpened">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated changelog page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobe-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glimmyglobe-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_inner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +43,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2TYbaGg8slLX7ATc2QeOSj9PwLQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,25 +54,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="20.5.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="20.4.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/High Priority/Projects/Ooblets/OobletsGuideStatic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\images\furnitures\playershop" />
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\sub" />
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,14 +119,14 @@
       <workItem from="1699957047798" duration="2495000" />
       <workItem from="1699965797892" duration="1017000" />
       <workItem from="1700023140078" duration="3621000" />
-      <workItem from="1700607740073" duration="68000" />
-    </task>
-    <task id="LOCAL-00015" summary="Added new ooblets to the farm planner. Added farm planner populate ooblet function.">
-      <created>1691559545688</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1691559545688</updated>
+      <workItem from="1700607740073" duration="265000" />
+      <workItem from="1704786418125" duration="6000" />
+      <workItem from="1708521884430" duration="14000" />
+      <workItem from="1708675760975" duration="14000" />
+      <workItem from="1709609508942" duration="4000" />
+      <workItem from="1720013433372" duration="634000" />
+      <workItem from="1721693077601" duration="1219000" />
+      <workItem from="1721696078062" duration="296000" />
     </task>
     <task id="LOCAL-00016" summary="Added glimmyglobe tracker">
       <created>1691684099595</created>
@@ -438,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700029367508</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Updated changelog page">
+      <created>1700607829835</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1700607829836</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed oobmobiles css" />
     <MESSAGE value="Fixed oobmobiles css typo" />
     <MESSAGE value="Updated changelog and donation message" />
     <MESSAGE value="Updated donation message" />
@@ -482,7 +514,8 @@
     <MESSAGE value="Changed map to bigger and rotated image" />
     <MESSAGE value="Updated map css" />
     <MESSAGE value="Updated map, less sharpened" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated map, less sharpened" />
+    <MESSAGE value="Updated changelog page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
