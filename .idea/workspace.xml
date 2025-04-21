@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="Updated headers and index with fundraising">
+    <list default="true" id="f4de7718-047a-4148-ad37-2e70ab960761" name="Changes" comment="feat: created apply-footer gulp task, updated footer years">
+      <change afterPath="$PROJECT_DIR$/includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/almanac.html" beforeDir="false" afterPath="$PROJECT_DIR$/almanac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmplanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/farmplanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/backpacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/backpacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/bottoms.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/bottoms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/oobaccessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/oobaccessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/outfits.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/outfits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothings/tops.html" beforeDir="false" afterPath="$PROJECT_DIR$/clothings/tops.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furnitures.html" beforeDir="false" afterPath="$PROJECT_DIR$/furnitures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glimmyglobe-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glimmyglobe-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/glimmyglobe-tracker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_inner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unlockables.html" beforeDir="false" afterPath="$PROJECT_DIR$/unlockables.html" afterDir="false" />
@@ -66,19 +71,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Data/Herd/OobletsGuideStatic",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Data/Herd/OobletsGuideStatic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\High Priority\Projects\Ooblets\OobletsGuideStatic\images\furnitures\playershop" />
@@ -140,7 +145,8 @@
       <workItem from="1721693077601" duration="1219000" />
       <workItem from="1721696078062" duration="758000" />
       <workItem from="1721699493860" duration="363000" />
-      <workItem from="1745233198698" duration="306000" />
+      <workItem from="1745233198698" duration="461000" />
+      <workItem from="1745233694413" duration="1368000" />
     </task>
     <task id="LOCAL-00016" summary="Added glimmyglobe tracker">
       <created>1691684099595</created>
@@ -485,7 +491,7 @@
       <option name="project" value="LOCAL" />
       <updated>1700607829836</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,8 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated changelog and donation message" />
-    <MESSAGE value="Updated donation message" />
     <MESSAGE value="Fixed changelog, removed taterflop on november changelog" />
     <MESSAGE value="Updated gleamy pantsabear image" />
     <MESSAGE value="Added glimmyglobes gallery" />
@@ -529,16 +533,13 @@
     <MESSAGE value="Updated map, less sharpened" />
     <MESSAGE value="Updated changelog page" />
     <MESSAGE value="Updated headers and index with fundraising" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated headers and index with fundraising" />
+    <MESSAGE value="fix: reverted to the original donation link and message" />
+    <MESSAGE value="feat: created apply-footer gulp task, updated footer years" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: created apply-footer gulp task, updated footer years" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/almanac.html</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/clothings/accessories.html</url>
           <line>135</line>

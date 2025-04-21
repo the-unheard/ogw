@@ -59,6 +59,16 @@ gulp.task('apply-header-inner', () => {
         }));
 });
 
+gulp.task('apply-footer', () => {
+    const footerContent = require('fs').readFileSync('includes/footer.html', 'utf8');
+
+    return gulp.src(['*.html', 'clothings/*.html'])
+        .pipe(replace(/<!-- region FOOTER -->([\s\S]*?)<!-- endregion FOOTER -->/, footerContent))
+        .pipe(gulp.dest((file) => {
+            return file.base;
+        }));
+});
+
 gulp.task('default', gulp.series('update-versions', 'apply-meta', 'apply-meta-inner', 'apply-changelog', 'apply-header', 'apply-header-inner'));
 gulp.task('headers', gulp.series('apply-header', 'apply-header-inner'));
 gulp.task('uversions', gulp.series('update-versions'));
